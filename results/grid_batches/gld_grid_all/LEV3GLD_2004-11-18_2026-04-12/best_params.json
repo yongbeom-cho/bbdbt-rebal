@@ -1,0 +1,17 @@
+{
+  "regime_ma_type": "wma",
+  "d_interval": 14,
+  "period": 4,
+  "bear_take_profit_pct": 0.09,
+  "bull_take_profit_pct": 0.25,
+  "bear_day_drop_buy_pct": 0.175,
+  "bull_day_drop_buy_pct": 0.002,
+  "bear_equity_buy_frac": 0.8,
+  "bull_equity_buy_frac": 0.3,
+  "bear_day_surge_partial_exit_pct": 0.02,
+  "bull_day_surge_partial_exit_pct": 0.1,
+  "bear_day_surge_sell_newest_n": 2,
+  "bull_day_surge_sell_newest_n": 2,
+  "commission": 0.0025,
+  "slippage": 0.001
+}

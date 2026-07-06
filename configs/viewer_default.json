@@ -1,0 +1,21 @@
+{
+  "_note": "batch_report_lev3.json cross_objective_consensus_top x0.125 overall_rank 1",
+  "ticker": "SOXL",
+  "start": "2010-01-01",
+  "end": "2021-12-31",
+  "regime_ma_type": "wma",
+  "d_interval": 20,
+  "period": 4,
+  "bear_take_profit_pct": 0.055,
+  "bull_take_profit_pct": 0.2,
+  "bear_day_drop_buy_pct": 0.175,
+  "bull_day_drop_buy_pct": 0.002,
+  "bear_equity_buy_frac": 0.6,
+  "bull_equity_buy_frac": 0.35,
+  "bear_day_surge_partial_exit_pct": 0.06,
+  "bull_day_surge_partial_exit_pct": 0.1,
+  "bear_day_surge_sell_newest_n": 2,
+  "bull_day_surge_sell_newest_n": 2,
+  "commission": 0.0025,
+  "slippage": 0.001
+}

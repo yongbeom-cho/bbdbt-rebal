@@ -1,0 +1,412 @@
+[
+  {
+    "name": "config20",
+    "params": {
+      "regime_ma_type": "wma",
+      "d_interval": 25,
+      "period": 6,
+      "bear_take_profit_pct": 0.0924,
+      "bull_take_profit_pct": 0.1961,
+      "bear_day_drop_buy_pct": 0.2318,
+      "bull_day_drop_buy_pct": 0.0024,
+      "bear_equity_buy_frac": 0.3899,
+      "bull_equity_buy_frac": 0.3052,
+      "bear_day_surge_partial_exit_pct": 0.0581,
+      "bull_day_surge_partial_exit_pct": 0.1104,
+      "bear_day_surge_sell_newest_n": 2,
+      "bull_day_surge_sell_newest_n": 3,
+      "commission": 0.0025,
+      "slippage": 0.001
+    },
+    "avg_cagr": 0.35825180525468764,
+    "avg_mdd": 0.6689621142538242,
+    "per_ticker": {
+      "LEV3NASDAQ": {
+        "cagr": 0.1959661861138695,
+        "mdd": 0.7814787130531438
+      },
+      "LEV3SOX": {
+        "cagr": 0.4149293789976587,
+        "mdd": 0.7019433757904096
+      },
+      "TQQQ": {
+        "cagr": 0.34042899710101593,
+        "mdd": 0.5708524728093557
+      },
+      "SOXL": {
+        "cagr": 0.4816826588062064,
+        "mdd": 0.6215738953623879
+      }
+    },
+    "score": 0.1185949201762625
+  },
+  {
+    "name": "config40",
+    "params": {
+      "regime_ma_type": "wma",
+      "d_interval": 22,
+      "period": 7,
+      "bear_take_profit_pct": 0.0267,
+      "bull_take_profit_pct": 0.2787,
+      "bear_day_drop_buy_pct": 0.2121,
+      "bull_day_drop_buy_pct": 0.0034,
+      "bear_equity_buy_frac": 0.6403,
+      "bull_equity_buy_frac": 0.2498,
+      "bear_day_surge_partial_exit_pct": 0.0343,
+      "bull_day_surge_partial_exit_pct": 0.0897,
+      "bear_day_surge_sell_newest_n": 3,
+      "bull_day_surge_sell_newest_n": 3,
+      "commission": 0.0025,
+      "slippage": 0.001
+    },
+    "avg_cagr": 0.3464844696094367,
+    "avg_mdd": 0.5963977083837535,
+    "per_ticker": {
+      "LEV3NASDAQ": {
+        "cagr": 0.2031732736315126,
+        "mdd": 0.5998452842017747
+      },
+      "LEV3SOX": {
+        "cagr": 0.3711894254851711,
+        "mdd": 0.6593043780059895
+      },
+      "TQQQ": {
+        "cagr": 0.37567491667730035,
+        "mdd": 0.5189894361499361
+      },
+      "SOXL": {
+        "cagr": 0.4359002626437627,
+        "mdd": 0.6074517351773138
+      }
+    },
+    "score": 0.13984192594380837
+  },
+  {
+    "name": "config48",
+    "params": {
+      "regime_ma_type": "wma",
+      "d_interval": 19,
+      "period": 8,
+      "bear_take_profit_pct": 0.0472,
+      "bull_take_profit_pct": 0.3181,
+      "bear_day_drop_buy_pct": 0.2114,
+      "bull_day_drop_buy_pct": 0.002,
+      "bear_equity_buy_frac": 0.7117,
+      "bull_equity_buy_frac": 0.2,
+      "bear_day_surge_partial_exit_pct": 0.0397,
+      "bull_day_surge_partial_exit_pct": 0.0956,
+      "bear_day_surge_sell_newest_n": 5,
+      "bull_day_surge_sell_newest_n": 5,
+      "commission": 0.0025,
+      "slippage": 0.001
+    },
+    "avg_cagr": 0.3373358125485337,
+    "avg_mdd": 0.6164363207230135,
+    "per_ticker": {
+      "LEV3NASDAQ": {
+        "cagr": 0.2088665845532902,
+        "mdd": 0.6554247114886251
+      },
+      "LEV3SOX": {
+        "cagr": 0.4224769720201933,
+        "mdd": 0.6421661816345243
+      },
+      "TQQQ": {
+        "cagr": 0.3443931866449135,
+        "mdd": 0.5522361699687328
+      },
+      "SOXL": {
+        "cagr": 0.3736065069757377,
+        "mdd": 0.6159182198001716
+      }
+    },
+    "score": 0.12938976541300742
+  },
+  {
+    "name": "config36",
+    "params": {
+      "regime_ma_type": "wma",
+      "d_interval": 22,
+      "period": 7,
+      "bear_take_profit_pct": 0.0413,
+      "bull_take_profit_pct": 0.2988,
+      "bear_day_drop_buy_pct": 0.2122,
+      "bull_day_drop_buy_pct": 0.0041,
+      "bear_equity_buy_frac": 0.6002,
+      "bull_equity_buy_frac": 0.2474,
+      "bear_day_surge_partial_exit_pct": 0.04,
+      "bull_day_surge_partial_exit_pct": 0.0957,
+      "bear_day_surge_sell_newest_n": 4,
+      "bull_day_surge_sell_newest_n": 4,
+      "commission": 0.0025,
+      "slippage": 0.001
+    },
+    "avg_cagr": 0.3303122024943117,
+    "avg_mdd": 0.604722509469586,
+    "per_ticker": {
+      "LEV3NASDAQ": {
+        "cagr": 0.21265857643843078,
+        "mdd": 0.6134369915353375
+      },
+      "LEV3SOX": {
+        "cagr": 0.3777604900335334,
+        "mdd": 0.6481634524925215
+      },
+      "TQQQ": {
+        "cagr": 0.3593439659798954,
+        "mdd": 0.5431625320890352
+      },
+      "SOXL": {
+        "cagr": 0.37148577752538725,
+        "mdd": 0.6141270617614496
+      }
+    },
+    "score": 0.1305649784935255
+  },
+  {
+    "name": "config34",
+    "params": {
+      "regime_ma_type": "wma",
+      "d_interval": 22,
+      "period": 7,
+      "bear_take_profit_pct": 0.0343,
+      "bull_take_profit_pct": 0.287,
+      "bear_day_drop_buy_pct": 0.2122,
+      "bull_day_drop_buy_pct": 0.0044,
+      "bear_equity_buy_frac": 0.6126,
+      "bull_equity_buy_frac": 0.2506,
+      "bear_day_surge_partial_exit_pct": 0.04,
+      "bull_day_surge_partial_exit_pct": 0.0956,
+      "bear_day_surge_sell_newest_n": 4,
+      "bull_day_surge_sell_newest_n": 4,
+      "commission": 0.0025,
+      "slippage": 0.001
+    },
+    "avg_cagr": 0.32502450142506345,
+    "avg_mdd": 0.6017722617565111,
+    "per_ticker": {
+      "LEV3NASDAQ": {
+        "cagr": 0.21323892044103276,
+        "mdd": 0.6147614784812054
+      },
+      "LEV3SOX": {
+        "cagr": 0.3704451740900949,
+        "mdd": 0.6485377326231151
+      },
+      "TQQQ": {
+        "cagr": 0.35502260061526236,
+        "mdd": 0.5381577295482071
+      },
+      "SOXL": {
+        "cagr": 0.36139131055386375,
+        "mdd": 0.6056321063735164
+      }
+    },
+    "score": 0.12943377207622064
+  },
+  {
+    "name": "config28",
+    "params": {
+      "regime_ma_type": "wma",
+      "d_interval": 22,
+      "period": 8,
+      "bear_take_profit_pct": 0.03,
+      "bull_take_profit_pct": 0.3239,
+      "bear_day_drop_buy_pct": 0.2236,
+      "bull_day_drop_buy_pct": 0.004,
+      "bear_equity_buy_frac": 0.531,
+      "bull_equity_buy_frac": 0.2754,
+      "bear_day_surge_partial_exit_pct": 0.0395,
+      "bull_day_surge_partial_exit_pct": 0.1017,
+      "bear_day_surge_sell_newest_n": 3,
+      "bull_day_surge_sell_newest_n": 3,
+      "commission": 0.0025,
+      "slippage": 0.001
+    },
+    "avg_cagr": 0.3207864929385911,
+    "avg_mdd": 0.632562775342728,
+    "per_ticker": {
+      "LEV3NASDAQ": {
+        "cagr": 0.20516585464386017,
+        "mdd": 0.6763231242647616
+      },
+      "LEV3SOX": {
+        "cagr": 0.35741996461733305,
+        "mdd": 0.6623731170855032
+      },
+      "TQQQ": {
+        "cagr": 0.32874106350163723,
+        "mdd": 0.5782744168291825
+      },
+      "SOXL": {
+        "cagr": 0.39181908899153384,
+        "mdd": 0.6132804431914647
+      }
+    },
+    "score": 0.11786889867289549
+  },
+  {
+    "name": "config44",
+    "params": {
+      "regime_ma_type": "wma",
+      "d_interval": 22,
+      "period": 7,
+      "bear_take_profit_pct": 0.0253,
+      "bull_take_profit_pct": 0.315,
+      "bear_day_drop_buy_pct": 0.2345,
+      "bull_day_drop_buy_pct": 0.0033,
+      "bear_equity_buy_frac": 0.7946,
+      "bull_equity_buy_frac": 0.2105,
+      "bear_day_surge_partial_exit_pct": 0.04,
+      "bull_day_surge_partial_exit_pct": 0.0956,
+      "bear_day_surge_sell_newest_n": 4,
+      "bull_day_surge_sell_newest_n": 5,
+      "commission": 0.0025,
+      "slippage": 0.001
+    },
+    "avg_cagr": 0.315082936626538,
+    "avg_mdd": 0.6043145296054676,
+    "per_ticker": {
+      "LEV3NASDAQ": {
+        "cagr": 0.21506201310578432,
+        "mdd": 0.6111440273692085
+      },
+      "LEV3SOX": {
+        "cagr": 0.38270488377724643,
+        "mdd": 0.635123100952831
+      },
+      "TQQQ": {
+        "cagr": 0.34450268785304905,
+        "mdd": 0.5339217781992408
+      },
+      "SOXL": {
+        "cagr": 0.3180621617700723,
+        "mdd": 0.6370692119005904
+      }
+    },
+    "score": 0.12467373999236234
+  },
+  {
+    "name": "config29",
+    "params": {
+      "regime_ma_type": "wma",
+      "d_interval": 22,
+      "period": 7,
+      "bear_take_profit_pct": 0.03,
+      "bull_take_profit_pct": 0.3307,
+      "bear_day_drop_buy_pct": 0.2147,
+      "bull_day_drop_buy_pct": 0.0048,
+      "bear_equity_buy_frac": 0.5072,
+      "bull_equity_buy_frac": 0.2659,
+      "bear_day_surge_partial_exit_pct": 0.0395,
+      "bull_day_surge_partial_exit_pct": 0.0996,
+      "bear_day_surge_sell_newest_n": 4,
+      "bull_day_surge_sell_newest_n": 3,
+      "commission": 0.0025,
+      "slippage": 0.001
+    },
+    "avg_cagr": 0.31347503999588566,
+    "avg_mdd": 0.62156334867894,
+    "per_ticker": {
+      "LEV3NASDAQ": {
+        "cagr": 0.20735689905526145,
+        "mdd": 0.6554247114886251
+      },
+      "LEV3SOX": {
+        "cagr": 0.3491932026711324,
+        "mdd": 0.653275018502371
+      },
+      "TQQQ": {
+        "cagr": 0.355523230920022,
+        "mdd": 0.5192932629595239
+      },
+      "SOXL": {
+        "cagr": 0.34182682733712677,
+        "mdd": 0.65826040176524
+      }
+    },
+    "score": 0.1186304444087783
+  },
+  {
+    "name": "config41",
+    "params": {
+      "regime_ma_type": "wma",
+      "d_interval": 22,
+      "period": 7,
+      "bear_take_profit_pct": 0.0223,
+      "bull_take_profit_pct": 0.3239,
+      "bear_day_drop_buy_pct": 0.2421,
+      "bull_day_drop_buy_pct": 0.0042,
+      "bear_equity_buy_frac": 0.5562,
+      "bull_equity_buy_frac": 0.2208,
+      "bear_day_surge_partial_exit_pct": 0.04,
+      "bull_day_surge_partial_exit_pct": 0.0956,
+      "bear_day_surge_sell_newest_n": 4,
+      "bull_day_surge_sell_newest_n": 5,
+      "commission": 0.0025,
+      "slippage": 0.001
+    },
+    "avg_cagr": 0.3061969823312567,
+    "avg_mdd": 0.6026954366339685,
+    "per_ticker": {
+      "LEV3NASDAQ": {
+        "cagr": 0.21015684867440765,
+        "mdd": 0.6101545618763118
+      },
+      "LEV3SOX": {
+        "cagr": 0.36006679394056906,
+        "mdd": 0.6365471838246257
+      },
+      "TQQQ": {
+        "cagr": 0.34968530232751416,
+        "mdd": 0.5321286528547371
+      },
+      "SOXL": {
+        "cagr": 0.3048789843825359,
+        "mdd": 0.6319513479801995
+      }
+    },
+    "score": 0.1216534583691164
+  },
+  {
+    "name": "config26",
+    "params": {
+      "regime_ma_type": "wma",
+      "d_interval": 22,
+      "period": 8,
+      "bear_take_profit_pct": 0.0314,
+      "bull_take_profit_pct": 0.3239,
+      "bear_day_drop_buy_pct": 0.213,
+      "bull_day_drop_buy_pct": 0.0042,
+      "bear_equity_buy_frac": 0.5117,
+      "bull_equity_buy_frac": 0.2578,
+      "bear_day_surge_partial_exit_pct": 0.04,
+      "bull_day_surge_partial_exit_pct": 0.0967,
+      "bear_day_surge_sell_newest_n": 4,
+      "bull_day_surge_sell_newest_n": 4,
+      "commission": 0.0025,
+      "slippage": 0.001
+    },
+    "avg_cagr": 0.3052531939887159,
+    "avg_mdd": 0.6249001984114178,
+    "per_ticker": {
+      "LEV3NASDAQ": {
+        "cagr": 0.20765505271207507,
+        "mdd": 0.6554247114886251
+      },
+      "LEV3SOX": {
+        "cagr": 0.34533428457619486,
+        "mdd": 0.6588441532191185
+      },
+      "TQQQ": {
+        "cagr": 0.3171754064422838,
+        "mdd": 0.5776631482316121
+      },
+      "SOXL": {
+        "cagr": 0.35084803222430994,
+        "mdd": 0.607668780706315
+      }
+    },
+    "score": 0.11450041249944835
+  }
+]

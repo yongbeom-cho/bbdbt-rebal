@@ -1,0 +1,1995 @@
+{
+  "initial_capital": 100000.0,
+  "annualized_note": "(1 + total_pnl)^(252 / n_trading_days) - 1; n_trading_days from eval bars or business days in period",
+  "objective_consensus_xs": [
+    0.125,
+    0.25,
+    0.5,
+    0.75,
+    1.0,
+    3.0,
+    5.0,
+    7.0,
+    9.0
+  ],
+  "objective_consensus_formula": "annualized_pnl * (1 - mdd)^x",
+  "per_scenario": [
+    {
+      "slug": "GLD_2004-11-18_2026-04-12",
+      "ticker": "GLD",
+      "period": "2004-11-18:2026-04-12",
+      "n_trading_days_eval": 5381,
+      "buy_hold": {
+        "ok": true,
+        "total_pnl": 8.796661752731634,
+        "annualized_pnl": 0.11279103745833474,
+        "mdd": 0.45555012734257005,
+        "max_drawdown_pct": 45.555012734257005,
+        "final_equity": 979666.1752731634,
+        "n_trading_days_eval": 5381
+      },
+      "objective_top": [
+        {
+          "rank_by_objective": 1,
+          "objective_score": 5.17843671076453,
+          "total_pnl": 9.12469337496468,
+          "annualized_pnl": 0.11450875689530293,
+          "n_trading_days": 5381,
+          "mdd": 0.4324810162966627,
+          "params": {
+            "regime_ma_type": "wma",
+            "d_interval": 14,
+            "period": 4,
+            "bear_take_profit_pct": 0.09,
+            "bull_take_profit_pct": 0.25,
+            "bear_day_drop_buy_pct": 0.175,
+            "bull_day_drop_buy_pct": 0.002,
+            "bear_equity_buy_frac": 0.8,
+            "bull_equity_buy_frac": 0.3,
+            "bear_day_surge_partial_exit_pct": 0.05,
+            "bull_day_surge_partial_exit_pct": 0.03,
+            "bear_day_surge_sell_newest_n": 2,
+            "bull_day_surge_sell_newest_n": 2,
+            "commission": 0.0025,
+            "slippage": 0.001
+          }
+        },
+        {
+          "rank_by_objective": 2,
+          "objective_score": 5.17843671076453,
+          "total_pnl": 9.12469337496468,
+          "annualized_pnl": 0.11450875689530293,
+          "n_trading_days": 5381,
+          "mdd": 0.4324810162966627,
+          "params": {
+            "regime_ma_type": "wma",
+            "d_interval": 14,
+            "period": 4,
+            "bear_take_profit_pct": 0.09,
+            "bull_take_profit_pct": 0.25,
+            "bear_day_drop_buy_pct": 0.175,
+            "bull_day_drop_buy_pct": 0.002,
+            "bear_equity_buy_frac": 0.8,
+            "bull_equity_buy_frac": 0.3,
+            "bear_day_surge_partial_exit_pct": 0.06,
+            "bull_day_surge_partial_exit_pct": 0.03,
+            "bear_day_surge_sell_newest_n": 2,
+            "bull_day_surge_sell_newest_n": 2,
+            "commission": 0.0025,
+            "slippage": 0.001
+          }
+        }
+      ]
+    },
+    {
+      "slug": "LEV2GLD_2004-11-18_2026-04-12",
+      "ticker": "LEV2GLD",
+      "period": "2004-11-18:2026-04-12",
+      "n_trading_days_eval": 5381,
+      "buy_hold": {
+        "ok": true,
+        "total_pnl": 47.88086514525646,
+        "annualized_pnl": 0.1997888262633638,
+        "mdd": 0.7404650798935637,
+        "max_drawdown_pct": 74.04650798935637,
+        "final_equity": 4888086.514525645,
+        "n_trading_days_eval": 5381
+      },
+      "objective_top": [
+        {
+          "rank_by_objective": 1,
+          "objective_score": 14.175349782482394,
+          "total_pnl": 43.54792536444137,
+          "annualized_pnl": 0.19458476549937798,
+          "n_trading_days": 5381,
+          "mdd": 0.6744885166433867,
+          "params": {
+            "regime_ma_type": "ema",
+            "d_interval": 14,
+            "period": 4,
+            "bear_take_profit_pct": 0.09,
+            "bull_take_profit_pct": 0.25,
+            "bear_day_drop_buy_pct": 0.175,
+            "bull_day_drop_buy_pct": 0.002,
+            "bear_equity_buy_frac": 0.8,
+            "bull_equity_buy_frac": 0.3,
+            "bear_day_surge_partial_exit_pct": 0.06,
+            "bull_day_surge_partial_exit_pct": 0.06,
+            "bear_day_surge_sell_newest_n": 2,
+            "bull_day_surge_sell_newest_n": 2,
+            "commission": 0.0025,
+            "slippage": 0.001
+          }
+        },
+        {
+          "rank_by_objective": 2,
+          "objective_score": 13.212732520079266,
+          "total_pnl": 42.14958886872507,
+          "annualized_pnl": 0.19280188822912203,
+          "n_trading_days": 5381,
+          "mdd": 0.686527606206781,
+          "params": {
+            "regime_ma_type": "ema",
+            "d_interval": 14,
+            "period": 4,
+            "bear_take_profit_pct": 0.09,
+            "bull_take_profit_pct": 0.25,
+            "bear_day_drop_buy_pct": 0.2,
+            "bull_day_drop_buy_pct": 0.002,
+            "bear_equity_buy_frac": 0.8,
+            "bull_equity_buy_frac": 0.3,
+            "bear_day_surge_partial_exit_pct": 0.06,
+            "bull_day_surge_partial_exit_pct": 0.06,
+            "bear_day_surge_sell_newest_n": 2,
+            "bull_day_surge_sell_newest_n": 2,
+            "commission": 0.0025,
+            "slippage": 0.001
+          }
+        }
+      ]
+    },
+    {
+      "slug": "LEV3GLD_2004-11-18_2026-04-12",
+      "ticker": "LEV3GLD",
+      "period": "2004-11-18:2026-04-12",
+      "n_trading_days_eval": 5381,
+      "buy_hold": {
+        "ok": true,
+        "total_pnl": 121.29232269165647,
+        "annualized_pnl": 0.25243708403511333,
+        "mdd": 0.892081008591079,
+        "max_drawdown_pct": 89.2081008591079,
+        "final_equity": 12229232.269165646,
+        "n_trading_days_eval": 5381
+      },
+      "objective_top": [
+        {
+          "rank_by_objective": 1,
+          "objective_score": 7.705154349431458,
+          "total_pnl": 42.75663757716853,
+          "annualized_pnl": 0.19358254054044433,
+          "n_trading_days": 5381,
+          "mdd": 0.8197904515871962,
+          "params": {
+            "regime_ma_type": "wma",
+            "d_interval": 14,
+            "period": 4,
+            "bear_take_profit_pct": 0.09,
+            "bull_take_profit_pct": 0.25,
+            "bear_day_drop_buy_pct": 0.175,
+            "bull_day_drop_buy_pct": 0.002,
+            "bear_equity_buy_frac": 0.8,
+            "bull_equity_buy_frac": 0.3,
+            "bear_day_surge_partial_exit_pct": 0.02,
+            "bull_day_surge_partial_exit_pct": 0.1,
+            "bear_day_surge_sell_newest_n": 2,
+            "bull_day_surge_sell_newest_n": 2,
+            "commission": 0.0025,
+            "slippage": 0.001
+          }
+        },
+        {
+          "rank_by_objective": 2,
+          "objective_score": 7.705154349431458,
+          "total_pnl": 42.75663757716853,
+          "annualized_pnl": 0.19358254054044433,
+          "n_trading_days": 5381,
+          "mdd": 0.8197904515871962,
+          "params": {
+            "regime_ma_type": "wma",
+            "d_interval": 14,
+            "period": 4,
+            "bear_take_profit_pct": 0.09,
+            "bull_take_profit_pct": 0.25,
+            "bear_day_drop_buy_pct": 0.2,
+            "bull_day_drop_buy_pct": 0.002,
+            "bear_equity_buy_frac": 0.8,
+            "bull_equity_buy_frac": 0.3,
+            "bear_day_surge_partial_exit_pct": 0.02,
+            "bull_day_surge_partial_exit_pct": 0.1,
+            "bear_day_surge_sell_newest_n": 2,
+            "bull_day_surge_sell_newest_n": 2,
+            "commission": 0.0025,
+            "slippage": 0.001
+          }
+        }
+      ]
+    }
+  ],
+  "cross_pnl_consensus_top": [
+    {
+      "overall_rank": 1,
+      "mean_rank_pnl": 27.333333333333332,
+      "worst_rank_pnl": 53,
+      "mean_total_pnl": 28.82618924213545,
+      "mean_annualized_pnl": 0.16263643125056934,
+      "mean_mdd": 0.677497910149606,
+      "params": {
+        "bear_day_drop_buy_pct": 0.175,
+        "bear_day_surge_partial_exit_pct": 0.06,
+        "bear_day_surge_sell_newest_n": 2,
+        "bear_equity_buy_frac": 0.8,
+        "bear_take_profit_pct": 0.09,
+        "bull_day_drop_buy_pct": 0.002,
+        "bull_day_surge_partial_exit_pct": 0.06,
+        "bull_day_surge_sell_newest_n": 2,
+        "bull_equity_buy_frac": 0.3,
+        "bull_take_profit_pct": 0.25,
+        "commission": 0.0025,
+        "d_interval": 14,
+        "period": 4,
+        "regime_ma_type": "ema",
+        "slippage": 0.001
+      },
+      "by_scenario": [
+        {
+          "slug": "GLD_2004-11-18_2026-04-12",
+          "ticker": "GLD",
+          "period": "2004-11-18:2026-04-12",
+          "n_trading_days": 5381,
+          "rank_by_pnl": 28,
+          "total_pnl": 8.575042542196993,
+          "annualized_pnl": 0.11159922749012807,
+          "mdd": 0.45153898173317153,
+          "objective_score": 4.7030765643747365
+        },
+        {
+          "slug": "LEV2GLD_2004-11-18_2026-04-12",
+          "ticker": "LEV2GLD",
+          "period": "2004-11-18:2026-04-12",
+          "n_trading_days": 5381,
+          "rank_by_pnl": 1,
+          "total_pnl": 43.54792536444137,
+          "annualized_pnl": 0.19458476549937798,
+          "mdd": 0.6744885166433867,
+          "objective_score": 14.175349782482394
+        },
+        {
+          "slug": "LEV3GLD_2004-11-18_2026-04-12",
+          "ticker": "LEV3GLD",
+          "period": "2004-11-18:2026-04-12",
+          "n_trading_days": 5381,
+          "rank_by_pnl": 53,
+          "total_pnl": 34.35559981976798,
+          "annualized_pnl": 0.18172530076220195,
+          "mdd": 0.90646623207226,
+          "objective_score": 3.213408700560486
+        }
+      ]
+    },
+    {
+      "overall_rank": 2,
+      "mean_rank_pnl": 29.333333333333332,
+      "worst_rank_pnl": 54,
+      "mean_total_pnl": 28.36007707689668,
+      "mean_annualized_pnl": 0.16204213882715068,
+      "mean_mdd": 0.6815109400040709,
+      "params": {
+        "bear_day_drop_buy_pct": 0.2,
+        "bear_day_surge_partial_exit_pct": 0.06,
+        "bear_day_surge_sell_newest_n": 2,
+        "bear_equity_buy_frac": 0.8,
+        "bear_take_profit_pct": 0.09,
+        "bull_day_drop_buy_pct": 0.002,
+        "bull_day_surge_partial_exit_pct": 0.06,
+        "bull_day_surge_sell_newest_n": 2,
+        "bull_equity_buy_frac": 0.3,
+        "bull_take_profit_pct": 0.25,
+        "commission": 0.0025,
+        "d_interval": 14,
+        "period": 4,
+        "regime_ma_type": "ema",
+        "slippage": 0.001
+      },
+      "by_scenario": [
+        {
+          "slug": "GLD_2004-11-18_2026-04-12",
+          "ticker": "GLD",
+          "period": "2004-11-18:2026-04-12",
+          "n_trading_days": 5381,
+          "rank_by_pnl": 32,
+          "total_pnl": 8.575042542196993,
+          "annualized_pnl": 0.11159922749012807,
+          "mdd": 0.45153898173317153,
+          "objective_score": 4.7030765643747365
+        },
+        {
+          "slug": "LEV2GLD_2004-11-18_2026-04-12",
+          "ticker": "LEV2GLD",
+          "period": "2004-11-18:2026-04-12",
+          "n_trading_days": 5381,
+          "rank_by_pnl": 2,
+          "total_pnl": 42.14958886872507,
+          "annualized_pnl": 0.19280188822912203,
+          "mdd": 0.686527606206781,
+          "objective_score": 13.212732520079266
+        },
+        {
+          "slug": "LEV3GLD_2004-11-18_2026-04-12",
+          "ticker": "LEV3GLD",
+          "period": "2004-11-18:2026-04-12",
+          "n_trading_days": 5381,
+          "rank_by_pnl": 54,
+          "total_pnl": 34.35559981976798,
+          "annualized_pnl": 0.18172530076220195,
+          "mdd": 0.90646623207226,
+          "objective_score": 3.213408700560486
+        }
+      ]
+    }
+  ],
+  "cross_objective_consensus_top": {
+    "x0.125": [
+      {
+        "objective_exponent_x": 0.125,
+        "overall_rank": 1,
+        "mean_rank_objective": 78.66666666666667,
+        "worst_rank_objective": 107,
+        "mean_objective_score": 0.13270758086172524,
+        "mean_total_pnl": 26.740351045389737,
+        "mean_annualized_pnl": 0.15926306344615596,
+        "mean_mdd": 0.6786535758011338,
+        "params": {
+          "bear_day_drop_buy_pct": 0.175,
+          "bear_day_surge_partial_exit_pct": 0.06,
+          "bear_day_surge_sell_newest_n": 2,
+          "bear_equity_buy_frac": 0.8,
+          "bear_take_profit_pct": 0.09,
+          "bull_day_drop_buy_pct": 0.002,
+          "bull_day_surge_partial_exit_pct": 0.075,
+          "bull_day_surge_sell_newest_n": 2,
+          "bull_equity_buy_frac": 0.3,
+          "bull_take_profit_pct": 0.3,
+          "commission": 0.0025,
+          "d_interval": 14,
+          "period": 4,
+          "regime_ma_type": "ema",
+          "slippage": 0.001
+        },
+        "by_scenario": [
+          {
+            "slug": "GLD_2004-11-18_2026-04-12",
+            "ticker": "GLD",
+            "period": "2004-11-18:2026-04-12",
+            "n_trading_days": 5381,
+            "rank_by_objective": 107,
+            "objective_score": 0.10173148395706884,
+            "total_pnl": 8.225243992050492,
+            "annualized_pnl": 0.1096635142066813,
+            "mdd": 0.45153898173317153
+          },
+          {
+            "slug": "LEV2GLD_2004-11-18_2026-04-12",
+            "ticker": "LEV2GLD",
+            "period": "2004-11-18:2026-04-12",
+            "n_trading_days": 5381,
+            "rank_by_objective": 50,
+            "objective_score": 0.1556472322745333,
+            "total_pnl": 32.96741661979032,
+            "annualized_pnl": 0.17951065534688615,
+            "mdd": 0.6805452425467087
+          },
+          {
+            "slug": "LEV3GLD_2004-11-18_2026-04-12",
+            "ticker": "LEV3GLD",
+            "period": "2004-11-18:2026-04-12",
+            "n_trading_days": 5381,
+            "rank_by_objective": 79,
+            "objective_score": 0.14074402635357353,
+            "total_pnl": 39.028392524328396,
+            "annualized_pnl": 0.18861502078490044,
+            "mdd": 0.9038765031235212
+          }
+        ]
+      },
+      {
+        "objective_exponent_x": 0.125,
+        "overall_rank": 2,
+        "mean_rank_objective": 89,
+        "worst_rank_objective": 111,
+        "mean_objective_score": 0.1319398735129403,
+        "mean_total_pnl": 26.37296528296661,
+        "mean_annualized_pnl": 0.15865617780557195,
+        "mean_mdd": 0.6825941591881141,
+        "params": {
+          "bear_day_drop_buy_pct": 0.2,
+          "bear_day_surge_partial_exit_pct": 0.06,
+          "bear_day_surge_sell_newest_n": 2,
+          "bear_equity_buy_frac": 0.8,
+          "bear_take_profit_pct": 0.09,
+          "bull_day_drop_buy_pct": 0.002,
+          "bull_day_surge_partial_exit_pct": 0.075,
+          "bull_day_surge_sell_newest_n": 2,
+          "bull_equity_buy_frac": 0.3,
+          "bull_take_profit_pct": 0.3,
+          "commission": 0.0025,
+          "d_interval": 14,
+          "period": 4,
+          "regime_ma_type": "ema",
+          "slippage": 0.001
+        },
+        "by_scenario": [
+          {
+            "slug": "GLD_2004-11-18_2026-04-12",
+            "ticker": "GLD",
+            "period": "2004-11-18:2026-04-12",
+            "n_trading_days": 5381,
+            "rank_by_objective": 111,
+            "objective_score": 0.10173148395706884,
+            "total_pnl": 8.225243992050492,
+            "annualized_pnl": 0.1096635142066813,
+            "mdd": 0.45153898173317153
+          },
+          {
+            "slug": "LEV2GLD_2004-11-18_2026-04-12",
+            "ticker": "LEV2GLD",
+            "period": "2004-11-18:2026-04-12",
+            "n_trading_days": 5381,
+            "rank_by_objective": 76,
+            "objective_score": 0.15334411022817848,
+            "total_pnl": 31.865259332520942,
+            "annualized_pnl": 0.1776899984251341,
+            "mdd": 0.6923669927076495
+          },
+          {
+            "slug": "LEV3GLD_2004-11-18_2026-04-12",
+            "ticker": "LEV3GLD",
+            "period": "2004-11-18:2026-04-12",
+            "n_trading_days": 5381,
+            "rank_by_objective": 80,
+            "objective_score": 0.14074402635357353,
+            "total_pnl": 39.028392524328396,
+            "annualized_pnl": 0.18861502078490044,
+            "mdd": 0.9038765031235212
+          }
+        ]
+      }
+    ],
+    "x0.25": [
+      {
+        "objective_exponent_x": 0.25,
+        "overall_rank": 1,
+        "mean_rank_objective": 161.33333333333334,
+        "worst_rank_objective": 339,
+        "mean_objective_score": 0.11145070554788303,
+        "mean_total_pnl": 26.740351045389737,
+        "mean_annualized_pnl": 0.15926306344615596,
+        "mean_mdd": 0.6786535758011338,
+        "params": {
+          "bear_day_drop_buy_pct": 0.175,
+          "bear_day_surge_partial_exit_pct": 0.06,
+          "bear_day_surge_sell_newest_n": 2,
+          "bear_equity_buy_frac": 0.8,
+          "bear_take_profit_pct": 0.09,
+          "bull_day_drop_buy_pct": 0.002,
+          "bull_day_surge_partial_exit_pct": 0.075,
+          "bull_day_surge_sell_newest_n": 2,
+          "bull_equity_buy_frac": 0.3,
+          "bull_take_profit_pct": 0.3,
+          "commission": 0.0025,
+          "d_interval": 14,
+          "period": 4,
+          "regime_ma_type": "ema",
+          "slippage": 0.001
+        },
+        "by_scenario": [
+          {
+            "slug": "GLD_2004-11-18_2026-04-12",
+            "ticker": "GLD",
+            "period": "2004-11-18:2026-04-12",
+            "n_trading_days": 5381,
+            "rank_by_objective": 107,
+            "objective_score": 0.09437318239320859,
+            "total_pnl": 8.225243992050492,
+            "annualized_pnl": 0.1096635142066813,
+            "mdd": 0.45153898173317153
+          },
+          {
+            "slug": "LEV2GLD_2004-11-18_2026-04-12",
+            "ticker": "LEV2GLD",
+            "period": "2004-11-18:2026-04-12",
+            "n_trading_days": 5381,
+            "rank_by_objective": 38,
+            "objective_score": 0.13495611649296316,
+            "total_pnl": 32.96741661979032,
+            "annualized_pnl": 0.17951065534688615,
+            "mdd": 0.6805452425467087
+          },
+          {
+            "slug": "LEV3GLD_2004-11-18_2026-04-12",
+            "ticker": "LEV3GLD",
+            "period": "2004-11-18:2026-04-12",
+            "n_trading_days": 5381,
+            "rank_by_objective": 339,
+            "objective_score": 0.10502281775747735,
+            "total_pnl": 39.028392524328396,
+            "annualized_pnl": 0.18861502078490044,
+            "mdd": 0.9038765031235212
+          }
+        ]
+      },
+      {
+        "objective_exponent_x": 0.25,
+        "overall_rank": 2,
+        "mean_rank_objective": 169,
+        "worst_rank_objective": 340,
+        "mean_objective_score": 0.11057664399957856,
+        "mean_total_pnl": 26.37296528296661,
+        "mean_annualized_pnl": 0.15865617780557195,
+        "mean_mdd": 0.6825941591881141,
+        "params": {
+          "bear_day_drop_buy_pct": 0.2,
+          "bear_day_surge_partial_exit_pct": 0.06,
+          "bear_day_surge_sell_newest_n": 2,
+          "bear_equity_buy_frac": 0.8,
+          "bear_take_profit_pct": 0.09,
+          "bull_day_drop_buy_pct": 0.002,
+          "bull_day_surge_partial_exit_pct": 0.075,
+          "bull_day_surge_sell_newest_n": 2,
+          "bull_equity_buy_frac": 0.3,
+          "bull_take_profit_pct": 0.3,
+          "commission": 0.0025,
+          "d_interval": 14,
+          "period": 4,
+          "regime_ma_type": "ema",
+          "slippage": 0.001
+        },
+        "by_scenario": [
+          {
+            "slug": "GLD_2004-11-18_2026-04-12",
+            "ticker": "GLD",
+            "period": "2004-11-18:2026-04-12",
+            "n_trading_days": 5381,
+            "rank_by_objective": 111,
+            "objective_score": 0.09437318239320859,
+            "total_pnl": 8.225243992050492,
+            "annualized_pnl": 0.1096635142066813,
+            "mdd": 0.45153898173317153
+          },
+          {
+            "slug": "LEV2GLD_2004-11-18_2026-04-12",
+            "ticker": "LEV2GLD",
+            "period": "2004-11-18:2026-04-12",
+            "n_trading_days": 5381,
+            "rank_by_objective": 56,
+            "objective_score": 0.13233393184804973,
+            "total_pnl": 31.865259332520942,
+            "annualized_pnl": 0.1776899984251341,
+            "mdd": 0.6923669927076495
+          },
+          {
+            "slug": "LEV3GLD_2004-11-18_2026-04-12",
+            "ticker": "LEV3GLD",
+            "period": "2004-11-18:2026-04-12",
+            "n_trading_days": 5381,
+            "rank_by_objective": 340,
+            "objective_score": 0.10502281775747735,
+            "total_pnl": 39.028392524328396,
+            "annualized_pnl": 0.18861502078490044,
+            "mdd": 0.9038765031235212
+          }
+        ]
+      }
+    ],
+    "x0.5": [
+      {
+        "objective_exponent_x": 0.5,
+        "overall_rank": 1,
+        "mean_rank_objective": 304.3333333333333,
+        "worst_rank_objective": 663,
+        "mean_objective_score": 0.07961591844112771,
+        "mean_total_pnl": 23.93614047797808,
+        "mean_annualized_pnl": 0.1546516451864209,
+        "mean_mdd": 0.6808576448186978,
+        "params": {
+          "bear_day_drop_buy_pct": 0.175,
+          "bear_day_surge_partial_exit_pct": 0.06,
+          "bear_day_surge_sell_newest_n": 2,
+          "bear_equity_buy_frac": 0.8,
+          "bear_take_profit_pct": 0.09,
+          "bull_day_drop_buy_pct": 0.002,
+          "bull_day_surge_partial_exit_pct": 0.05,
+          "bull_day_surge_sell_newest_n": 2,
+          "bull_equity_buy_frac": 0.3,
+          "bull_take_profit_pct": 0.25,
+          "commission": 0.0025,
+          "d_interval": 14,
+          "period": 4,
+          "regime_ma_type": "wma",
+          "slippage": 0.001
+        },
+        "by_scenario": [
+          {
+            "slug": "GLD_2004-11-18_2026-04-12",
+            "ticker": "GLD",
+            "period": "2004-11-18:2026-04-12",
+            "n_trading_days": 5381,
+            "rank_by_objective": 193,
+            "objective_score": 0.08062440621449868,
+            "total_pnl": 8.084759917735347,
+            "annualized_pnl": 0.10886634596638878,
+            "mdd": 0.45153898173317153
+          },
+          {
+            "slug": "LEV2GLD_2004-11-18_2026-04-12",
+            "ticker": "LEV2GLD",
+            "period": "2004-11-18:2026-04-12",
+            "n_trading_days": 5381,
+            "rank_by_objective": 57,
+            "objective_score": 0.09648074950113437,
+            "total_pnl": 34.25662994409209,
+            "annualized_pnl": 0.18157017677628762,
+            "mdd": 0.717647066390352
+          },
+          {
+            "slug": "LEV3GLD_2004-11-18_2026-04-12",
+            "ticker": "LEV3GLD",
+            "period": "2004-11-18:2026-04-12",
+            "n_trading_days": 5381,
+            "rank_by_objective": 663,
+            "objective_score": 0.061742599607750075,
+            "total_pnl": 29.467031572106794,
+            "annualized_pnl": 0.1735184128165863,
+            "mdd": 0.8733868863325698
+          }
+        ]
+      },
+      {
+        "objective_exponent_x": 0.5,
+        "overall_rank": 2,
+        "mean_rank_objective": 306.3333333333333,
+        "worst_rank_objective": 664,
+        "mean_objective_score": 0.07961591844112771,
+        "mean_total_pnl": 23.93614047797808,
+        "mean_annualized_pnl": 0.1546516451864209,
+        "mean_mdd": 0.6808576448186978,
+        "params": {
+          "bear_day_drop_buy_pct": 0.2,
+          "bear_day_surge_partial_exit_pct": 0.06,
+          "bear_day_surge_sell_newest_n": 2,
+          "bear_equity_buy_frac": 0.8,
+          "bear_take_profit_pct": 0.09,
+          "bull_day_drop_buy_pct": 0.002,
+          "bull_day_surge_partial_exit_pct": 0.05,
+          "bull_day_surge_sell_newest_n": 2,
+          "bull_equity_buy_frac": 0.3,
+          "bull_take_profit_pct": 0.25,
+          "commission": 0.0025,
+          "d_interval": 14,
+          "period": 4,
+          "regime_ma_type": "wma",
+          "slippage": 0.001
+        },
+        "by_scenario": [
+          {
+            "slug": "GLD_2004-11-18_2026-04-12",
+            "ticker": "GLD",
+            "period": "2004-11-18:2026-04-12",
+            "n_trading_days": 5381,
+            "rank_by_objective": 197,
+            "objective_score": 0.08062440621449868,
+            "total_pnl": 8.084759917735347,
+            "annualized_pnl": 0.10886634596638878,
+            "mdd": 0.45153898173317153
+          },
+          {
+            "slug": "LEV2GLD_2004-11-18_2026-04-12",
+            "ticker": "LEV2GLD",
+            "period": "2004-11-18:2026-04-12",
+            "n_trading_days": 5381,
+            "rank_by_objective": 58,
+            "objective_score": 0.09648074950113437,
+            "total_pnl": 34.25662994409209,
+            "annualized_pnl": 0.18157017677628762,
+            "mdd": 0.717647066390352
+          },
+          {
+            "slug": "LEV3GLD_2004-11-18_2026-04-12",
+            "ticker": "LEV3GLD",
+            "period": "2004-11-18:2026-04-12",
+            "n_trading_days": 5381,
+            "rank_by_objective": 664,
+            "objective_score": 0.061742599607750075,
+            "total_pnl": 29.467031572106794,
+            "annualized_pnl": 0.1735184128165863,
+            "mdd": 0.8733868863325698
+          }
+        ]
+      }
+    ],
+    "x0.75": [
+      {
+        "objective_exponent_x": 0.75,
+        "overall_rank": 1,
+        "mean_rank_objective": 321.3333333333333,
+        "worst_rank_objective": 703,
+        "mean_objective_score": 0.05884764103758265,
+        "mean_total_pnl": 23.93614047797808,
+        "mean_annualized_pnl": 0.1546516451864209,
+        "mean_mdd": 0.6808576448186978,
+        "params": {
+          "bear_day_drop_buy_pct": 0.175,
+          "bear_day_surge_partial_exit_pct": 0.06,
+          "bear_day_surge_sell_newest_n": 2,
+          "bear_equity_buy_frac": 0.8,
+          "bear_take_profit_pct": 0.09,
+          "bull_day_drop_buy_pct": 0.002,
+          "bull_day_surge_partial_exit_pct": 0.05,
+          "bull_day_surge_sell_newest_n": 2,
+          "bull_equity_buy_frac": 0.3,
+          "bull_take_profit_pct": 0.25,
+          "commission": 0.0025,
+          "d_interval": 14,
+          "period": 4,
+          "regime_ma_type": "wma",
+          "slippage": 0.001
+        },
+        "by_scenario": [
+          {
+            "slug": "GLD_2004-11-18_2026-04-12",
+            "ticker": "GLD",
+            "period": "2004-11-18:2026-04-12",
+            "n_trading_days": 5381,
+            "rank_by_objective": 201,
+            "objective_score": 0.06938298346599452,
+            "total_pnl": 8.084759917735347,
+            "annualized_pnl": 0.10886634596638878,
+            "mdd": 0.45153898173317153
+          },
+          {
+            "slug": "LEV2GLD_2004-11-18_2026-04-12",
+            "ticker": "LEV2GLD",
+            "period": "2004-11-18:2026-04-12",
+            "n_trading_days": 5381,
+            "rank_by_objective": 60,
+            "objective_score": 0.07032969672746561,
+            "total_pnl": 34.25662994409209,
+            "annualized_pnl": 0.18157017677628762,
+            "mdd": 0.717647066390352
+          },
+          {
+            "slug": "LEV3GLD_2004-11-18_2026-04-12",
+            "ticker": "LEV3GLD",
+            "period": "2004-11-18:2026-04-12",
+            "n_trading_days": 5381,
+            "rank_by_objective": 703,
+            "objective_score": 0.03683024291928782,
+            "total_pnl": 29.467031572106794,
+            "annualized_pnl": 0.1735184128165863,
+            "mdd": 0.8733868863325698
+          }
+        ]
+      },
+      {
+        "objective_exponent_x": 0.75,
+        "overall_rank": 2,
+        "mean_rank_objective": 323.3333333333333,
+        "worst_rank_objective": 704,
+        "mean_objective_score": 0.05884764103758265,
+        "mean_total_pnl": 23.93614047797808,
+        "mean_annualized_pnl": 0.1546516451864209,
+        "mean_mdd": 0.6808576448186978,
+        "params": {
+          "bear_day_drop_buy_pct": 0.2,
+          "bear_day_surge_partial_exit_pct": 0.06,
+          "bear_day_surge_sell_newest_n": 2,
+          "bear_equity_buy_frac": 0.8,
+          "bear_take_profit_pct": 0.09,
+          "bull_day_drop_buy_pct": 0.002,
+          "bull_day_surge_partial_exit_pct": 0.05,
+          "bull_day_surge_sell_newest_n": 2,
+          "bull_equity_buy_frac": 0.3,
+          "bull_take_profit_pct": 0.25,
+          "commission": 0.0025,
+          "d_interval": 14,
+          "period": 4,
+          "regime_ma_type": "wma",
+          "slippage": 0.001
+        },
+        "by_scenario": [
+          {
+            "slug": "GLD_2004-11-18_2026-04-12",
+            "ticker": "GLD",
+            "period": "2004-11-18:2026-04-12",
+            "n_trading_days": 5381,
+            "rank_by_objective": 205,
+            "objective_score": 0.06938298346599452,
+            "total_pnl": 8.084759917735347,
+            "annualized_pnl": 0.10886634596638878,
+            "mdd": 0.45153898173317153
+          },
+          {
+            "slug": "LEV2GLD_2004-11-18_2026-04-12",
+            "ticker": "LEV2GLD",
+            "period": "2004-11-18:2026-04-12",
+            "n_trading_days": 5381,
+            "rank_by_objective": 61,
+            "objective_score": 0.07032969672746561,
+            "total_pnl": 34.25662994409209,
+            "annualized_pnl": 0.18157017677628762,
+            "mdd": 0.717647066390352
+          },
+          {
+            "slug": "LEV3GLD_2004-11-18_2026-04-12",
+            "ticker": "LEV3GLD",
+            "period": "2004-11-18:2026-04-12",
+            "n_trading_days": 5381,
+            "rank_by_objective": 704,
+            "objective_score": 0.03683024291928782,
+            "total_pnl": 29.467031572106794,
+            "annualized_pnl": 0.1735184128165863,
+            "mdd": 0.8733868863325698
+          }
+        ]
+      }
+    ],
+    "x1.0": [
+      {
+        "objective_exponent_x": 1.0,
+        "overall_rank": 1,
+        "mean_rank_objective": 369.6666666666667,
+        "worst_rank_objective": 823,
+        "mean_objective_score": 0.044315175185953376,
+        "mean_total_pnl": 23.93614047797808,
+        "mean_annualized_pnl": 0.1546516451864209,
+        "mean_mdd": 0.6808576448186978,
+        "params": {
+          "bear_day_drop_buy_pct": 0.175,
+          "bear_day_surge_partial_exit_pct": 0.06,
+          "bear_day_surge_sell_newest_n": 2,
+          "bear_equity_buy_frac": 0.8,
+          "bear_take_profit_pct": 0.09,
+          "bull_day_drop_buy_pct": 0.002,
+          "bull_day_surge_partial_exit_pct": 0.05,
+          "bull_day_surge_sell_newest_n": 2,
+          "bull_equity_buy_frac": 0.3,
+          "bull_take_profit_pct": 0.25,
+          "commission": 0.0025,
+          "d_interval": 14,
+          "period": 4,
+          "regime_ma_type": "wma",
+          "slippage": 0.001
+        },
+        "by_scenario": [
+          {
+            "slug": "GLD_2004-11-18_2026-04-12",
+            "ticker": "GLD",
+            "period": "2004-11-18:2026-04-12",
+            "n_trading_days": 5381,
+            "rank_by_objective": 221,
+            "objective_score": 0.05970894696371443,
+            "total_pnl": 8.084759917735347,
+            "annualized_pnl": 0.10886634596638878,
+            "mdd": 0.45153898173317153
+          },
+          {
+            "slug": "LEV2GLD_2004-11-18_2026-04-12",
+            "ticker": "LEV2GLD",
+            "period": "2004-11-18:2026-04-12",
+            "n_trading_days": 5381,
+            "rank_by_objective": 65,
+            "objective_score": 0.05126687206880718,
+            "total_pnl": 34.25662994409209,
+            "annualized_pnl": 0.18157017677628762,
+            "mdd": 0.717647066390352
+          },
+          {
+            "slug": "LEV3GLD_2004-11-18_2026-04-12",
+            "ticker": "LEV3GLD",
+            "period": "2004-11-18:2026-04-12",
+            "n_trading_days": 5381,
+            "rank_by_objective": 823,
+            "objective_score": 0.021969706525338525,
+            "total_pnl": 29.467031572106794,
+            "annualized_pnl": 0.1735184128165863,
+            "mdd": 0.8733868863325698
+          }
+        ]
+      },
+      {
+        "objective_exponent_x": 1.0,
+        "overall_rank": 2,
+        "mean_rank_objective": 371.6666666666667,
+        "worst_rank_objective": 824,
+        "mean_objective_score": 0.044315175185953376,
+        "mean_total_pnl": 23.93614047797808,
+        "mean_annualized_pnl": 0.1546516451864209,
+        "mean_mdd": 0.6808576448186978,
+        "params": {
+          "bear_day_drop_buy_pct": 0.2,
+          "bear_day_surge_partial_exit_pct": 0.06,
+          "bear_day_surge_sell_newest_n": 2,
+          "bear_equity_buy_frac": 0.8,
+          "bear_take_profit_pct": 0.09,
+          "bull_day_drop_buy_pct": 0.002,
+          "bull_day_surge_partial_exit_pct": 0.05,
+          "bull_day_surge_sell_newest_n": 2,
+          "bull_equity_buy_frac": 0.3,
+          "bull_take_profit_pct": 0.25,
+          "commission": 0.0025,
+          "d_interval": 14,
+          "period": 4,
+          "regime_ma_type": "wma",
+          "slippage": 0.001
+        },
+        "by_scenario": [
+          {
+            "slug": "GLD_2004-11-18_2026-04-12",
+            "ticker": "GLD",
+            "period": "2004-11-18:2026-04-12",
+            "n_trading_days": 5381,
+            "rank_by_objective": 225,
+            "objective_score": 0.05970894696371443,
+            "total_pnl": 8.084759917735347,
+            "annualized_pnl": 0.10886634596638878,
+            "mdd": 0.45153898173317153
+          },
+          {
+            "slug": "LEV2GLD_2004-11-18_2026-04-12",
+            "ticker": "LEV2GLD",
+            "period": "2004-11-18:2026-04-12",
+            "n_trading_days": 5381,
+            "rank_by_objective": 66,
+            "objective_score": 0.05126687206880718,
+            "total_pnl": 34.25662994409209,
+            "annualized_pnl": 0.18157017677628762,
+            "mdd": 0.717647066390352
+          },
+          {
+            "slug": "LEV3GLD_2004-11-18_2026-04-12",
+            "ticker": "LEV3GLD",
+            "period": "2004-11-18:2026-04-12",
+            "n_trading_days": 5381,
+            "rank_by_objective": 824,
+            "objective_score": 0.021969706525338525,
+            "total_pnl": 29.467031572106794,
+            "annualized_pnl": 0.1735184128165863,
+            "mdd": 0.8733868863325698
+          }
+        ]
+      }
+    ],
+    "x3.0": [
+      {
+        "objective_exponent_x": 3.0,
+        "overall_rank": 1,
+        "mean_rank_objective": 126.66666666666667,
+        "worst_rank_objective": 248,
+        "mean_objective_score": 0.010510254744858357,
+        "mean_total_pnl": 8.69960070246194,
+        "mean_annualized_pnl": 0.10957978229502248,
+        "mean_mdd": 0.5588123693775664,
+        "params": {
+          "bear_day_drop_buy_pct": 0.175,
+          "bear_day_surge_partial_exit_pct": 0.02,
+          "bear_day_surge_sell_newest_n": 2,
+          "bear_equity_buy_frac": 0.8,
+          "bear_take_profit_pct": 0.07,
+          "bull_day_drop_buy_pct": 0.002,
+          "bull_day_surge_partial_exit_pct": 0.03,
+          "bull_day_surge_sell_newest_n": 2,
+          "bull_equity_buy_frac": 0.3,
+          "bull_take_profit_pct": 0.25,
+          "commission": 0.0025,
+          "d_interval": 13,
+          "period": 4,
+          "regime_ma_type": "wma",
+          "slippage": 0.001
+        },
+        "by_scenario": [
+          {
+            "slug": "GLD_2004-11-18_2026-04-12",
+            "ticker": "GLD",
+            "period": "2004-11-18:2026-04-12",
+            "n_trading_days": 5381,
+            "rank_by_objective": 111,
+            "objective_score": 0.0200021144575279,
+            "total_pnl": 5.215247399391537,
+            "annualized_pnl": 0.08932834292028491,
+            "mdd": 0.3927574293158237
+          },
+          {
+            "slug": "LEV2GLD_2004-11-18_2026-04-12",
+            "ticker": "LEV2GLD",
+            "period": "2004-11-18:2026-04-12",
+            "n_trading_days": 5381,
+            "rank_by_objective": 248,
+            "objective_score": 0.003779511555806154,
+            "total_pnl": 7.959903357087777,
+            "annualized_pnl": 0.10814793072141748,
+            "mdd": 0.6730566654221832
+          },
+          {
+            "slug": "LEV3GLD_2004-11-18_2026-04-12",
+            "ticker": "LEV3GLD",
+            "period": "2004-11-18:2026-04-12",
+            "n_trading_days": 5381,
+            "rank_by_objective": 21,
+            "objective_score": 0.007749138221241018,
+            "total_pnl": 12.923651350906505,
+            "annualized_pnl": 0.13126307324336506,
+            "mdd": 0.6106230133946922
+          }
+        ]
+      },
+      {
+        "objective_exponent_x": 3.0,
+        "overall_rank": 2,
+        "mean_rank_objective": 135.66666666666666,
+        "worst_rank_objective": 291,
+        "mean_objective_score": 0.010572446187296133,
+        "mean_total_pnl": 8.772897818046335,
+        "mean_annualized_pnl": 0.10964221113649963,
+        "mean_mdd": 0.5588133329301648,
+        "params": {
+          "bear_day_drop_buy_pct": 0.175,
+          "bear_day_surge_partial_exit_pct": 0.02,
+          "bear_day_surge_sell_newest_n": 2,
+          "bear_equity_buy_frac": 0.8,
+          "bear_take_profit_pct": 0.07,
+          "bull_day_drop_buy_pct": 0.002,
+          "bull_day_surge_partial_exit_pct": 0.03,
+          "bull_day_surge_sell_newest_n": 2,
+          "bull_equity_buy_frac": 0.3,
+          "bull_take_profit_pct": 0.3,
+          "commission": 0.0025,
+          "d_interval": 13,
+          "period": 4,
+          "regime_ma_type": "wma",
+          "slippage": 0.001
+        },
+        "by_scenario": [
+          {
+            "slug": "GLD_2004-11-18_2026-04-12",
+            "ticker": "GLD",
+            "period": "2004-11-18:2026-04-12",
+            "n_trading_days": 5381,
+            "rank_by_objective": 105,
+            "objective_score": 0.020152683069887233,
+            "total_pnl": 5.297846425959515,
+            "annualized_pnl": 0.0900020593655535,
+            "mdd": 0.39276031997361915
+          },
+          {
+            "slug": "LEV2GLD_2004-11-18_2026-04-12",
+            "ticker": "LEV2GLD",
+            "period": "2004-11-18:2026-04-12",
+            "n_trading_days": 5381,
+            "rank_by_objective": 291,
+            "objective_score": 0.0036856089212049686,
+            "total_pnl": 7.507269065032071,
+            "annualized_pnl": 0.10546097621116912,
+            "mdd": 0.6730566654221828
+          },
+          {
+            "slug": "LEV3GLD_2004-11-18_2026-04-12",
+            "ticker": "LEV3GLD",
+            "period": "2004-11-18:2026-04-12",
+            "n_trading_days": 5381,
+            "rank_by_objective": 11,
+            "objective_score": 0.0078790465707962,
+            "total_pnl": 13.51357796314742,
+            "annualized_pnl": 0.13346359783277628,
+            "mdd": 0.6106230133946923
+          }
+        ]
+      }
+    ],
+    "x5.0": [
+      {
+        "objective_exponent_x": 5.0,
+        "overall_rank": 1,
+        "mean_rank_objective": 92.33333333333333,
+        "worst_rank_objective": 179,
+        "mean_objective_score": 0.0029848436857655295,
+        "mean_total_pnl": 8.69960070246194,
+        "mean_annualized_pnl": 0.10957978229502248,
+        "mean_mdd": 0.5588123693775664,
+        "params": {
+          "bear_day_drop_buy_pct": 0.175,
+          "bear_day_surge_partial_exit_pct": 0.02,
+          "bear_day_surge_sell_newest_n": 2,
+          "bear_equity_buy_frac": 0.8,
+          "bear_take_profit_pct": 0.07,
+          "bull_day_drop_buy_pct": 0.002,
+          "bull_day_surge_partial_exit_pct": 0.03,
+          "bull_day_surge_sell_newest_n": 2,
+          "bull_equity_buy_frac": 0.3,
+          "bull_take_profit_pct": 0.25,
+          "commission": 0.0025,
+          "d_interval": 13,
+          "period": 4,
+          "regime_ma_type": "wma",
+          "slippage": 0.001
+        },
+        "by_scenario": [
+          {
+            "slug": "GLD_2004-11-18_2026-04-12",
+            "ticker": "GLD",
+            "period": "2004-11-18:2026-04-12",
+            "n_trading_days": 5381,
+            "rank_by_objective": 77,
+            "objective_score": 0.0073756504855758175,
+            "total_pnl": 5.215247399391537,
+            "annualized_pnl": 0.08932834292028491,
+            "mdd": 0.3927574293158237
+          },
+          {
+            "slug": "LEV2GLD_2004-11-18_2026-04-12",
+            "ticker": "LEV2GLD",
+            "period": "2004-11-18:2026-04-12",
+            "n_trading_days": 5381,
+            "rank_by_objective": 179,
+            "objective_score": 0.00040399933766455137,
+            "total_pnl": 7.959903357087777,
+            "annualized_pnl": 0.10814793072141748,
+            "mdd": 0.6730566654221832
+          },
+          {
+            "slug": "LEV3GLD_2004-11-18_2026-04-12",
+            "ticker": "LEV3GLD",
+            "period": "2004-11-18:2026-04-12",
+            "n_trading_days": 5381,
+            "rank_by_objective": 21,
+            "objective_score": 0.0011748812340562202,
+            "total_pnl": 12.923651350906505,
+            "annualized_pnl": 0.13126307324336506,
+            "mdd": 0.6106230133946922
+          }
+        ]
+      },
+      {
+        "objective_exponent_x": 5.0,
+        "overall_rank": 2,
+        "mean_rank_objective": 93,
+        "worst_rank_objective": 193,
+        "mean_objective_score": 0.0030065466858392965,
+        "mean_total_pnl": 8.772897818046335,
+        "mean_annualized_pnl": 0.10964221113649963,
+        "mean_mdd": 0.5588133329301648,
+        "params": {
+          "bear_day_drop_buy_pct": 0.175,
+          "bear_day_surge_partial_exit_pct": 0.02,
+          "bear_day_surge_sell_newest_n": 2,
+          "bear_equity_buy_frac": 0.8,
+          "bear_take_profit_pct": 0.07,
+          "bull_day_drop_buy_pct": 0.002,
+          "bull_day_surge_partial_exit_pct": 0.03,
+          "bull_day_surge_sell_newest_n": 2,
+          "bull_equity_buy_frac": 0.3,
+          "bull_take_profit_pct": 0.3,
+          "commission": 0.0025,
+          "d_interval": 13,
+          "period": 4,
+          "regime_ma_type": "wma",
+          "slippage": 0.001
+        },
+        "by_scenario": [
+          {
+            "slug": "GLD_2004-11-18_2026-04-12",
+            "ticker": "GLD",
+            "period": "2004-11-18:2026-04-12",
+            "n_trading_days": 5381,
+            "rank_by_objective": 75,
+            "objective_score": 0.007431100939588632,
+            "total_pnl": 5.297846425959515,
+            "annualized_pnl": 0.0900020593655535,
+            "mdd": 0.39276031997361915
+          },
+          {
+            "slug": "LEV2GLD_2004-11-18_2026-04-12",
+            "ticker": "LEV2GLD",
+            "period": "2004-11-18:2026-04-12",
+            "n_trading_days": 5381,
+            "rank_by_objective": 193,
+            "objective_score": 0.0003939619025029755,
+            "total_pnl": 7.507269065032071,
+            "annualized_pnl": 0.10546097621116912,
+            "mdd": 0.6730566654221828
+          },
+          {
+            "slug": "LEV3GLD_2004-11-18_2026-04-12",
+            "ticker": "LEV3GLD",
+            "period": "2004-11-18:2026-04-12",
+            "n_trading_days": 5381,
+            "rank_by_objective": 11,
+            "objective_score": 0.0011945772154262815,
+            "total_pnl": 13.51357796314742,
+            "annualized_pnl": 0.13346359783277628,
+            "mdd": 0.6106230133946923
+          }
+        ]
+      }
+    ],
+    "x7.0": [
+      {
+        "objective_exponent_x": 7.0,
+        "overall_rank": 1,
+        "mean_rank_objective": 95.33333333333333,
+        "worst_rank_objective": 200,
+        "mean_objective_score": 0.0009877902941295908,
+        "mean_total_pnl": 8.772897818046335,
+        "mean_annualized_pnl": 0.10964221113649963,
+        "mean_mdd": 0.5588133329301648,
+        "params": {
+          "bear_day_drop_buy_pct": 0.175,
+          "bear_day_surge_partial_exit_pct": 0.02,
+          "bear_day_surge_sell_newest_n": 2,
+          "bear_equity_buy_frac": 0.8,
+          "bear_take_profit_pct": 0.07,
+          "bull_day_drop_buy_pct": 0.002,
+          "bull_day_surge_partial_exit_pct": 0.03,
+          "bull_day_surge_sell_newest_n": 2,
+          "bull_equity_buy_frac": 0.3,
+          "bull_take_profit_pct": 0.3,
+          "commission": 0.0025,
+          "d_interval": 13,
+          "period": 4,
+          "regime_ma_type": "wma",
+          "slippage": 0.001
+        },
+        "by_scenario": [
+          {
+            "slug": "GLD_2004-11-18_2026-04-12",
+            "ticker": "GLD",
+            "period": "2004-11-18:2026-04-12",
+            "n_trading_days": 5381,
+            "rank_by_objective": 75,
+            "objective_score": 0.0027401443759550006,
+            "total_pnl": 5.297846425959515,
+            "annualized_pnl": 0.0900020593655535,
+            "mdd": 0.39276031997361915
+          },
+          {
+            "slug": "LEV2GLD_2004-11-18_2026-04-12",
+            "ticker": "LEV2GLD",
+            "period": "2004-11-18:2026-04-12",
+            "n_trading_days": 5381,
+            "rank_by_objective": 200,
+            "objective_score": 4.2111353630276406e-05,
+            "total_pnl": 7.507269065032071,
+            "annualized_pnl": 0.10546097621116912,
+            "mdd": 0.6730566654221828
+          },
+          {
+            "slug": "LEV3GLD_2004-11-18_2026-04-12",
+            "ticker": "LEV3GLD",
+            "period": "2004-11-18:2026-04-12",
+            "n_trading_days": 5381,
+            "rank_by_objective": 11,
+            "objective_score": 0.00018111515280349517,
+            "total_pnl": 13.51357796314742,
+            "annualized_pnl": 0.13346359783277628,
+            "mdd": 0.6106230133946923
+          }
+        ]
+      },
+      {
+        "objective_exponent_x": 7.0,
+        "overall_rank": 2,
+        "mean_rank_objective": 98,
+        "worst_rank_objective": 194,
+        "mean_objective_score": 0.0009803455665105556,
+        "mean_total_pnl": 8.69960070246194,
+        "mean_annualized_pnl": 0.10957978229502248,
+        "mean_mdd": 0.5588123693775664,
+        "params": {
+          "bear_day_drop_buy_pct": 0.175,
+          "bear_day_surge_partial_exit_pct": 0.02,
+          "bear_day_surge_sell_newest_n": 2,
+          "bear_equity_buy_frac": 0.8,
+          "bear_take_profit_pct": 0.07,
+          "bull_day_drop_buy_pct": 0.002,
+          "bull_day_surge_partial_exit_pct": 0.03,
+          "bull_day_surge_sell_newest_n": 2,
+          "bull_equity_buy_frac": 0.3,
+          "bull_take_profit_pct": 0.25,
+          "commission": 0.0025,
+          "d_interval": 13,
+          "period": 4,
+          "regime_ma_type": "wma",
+          "slippage": 0.001
+        },
+        "by_scenario": [
+          {
+            "slug": "GLD_2004-11-18_2026-04-12",
+            "ticker": "GLD",
+            "period": "2004-11-18:2026-04-12",
+            "n_trading_days": 5381,
+            "rank_by_objective": 79,
+            "objective_score": 0.0027197234672807795,
+            "total_pnl": 5.215247399391537,
+            "annualized_pnl": 0.08932834292028491,
+            "mdd": 0.3927574293158237
+          },
+          {
+            "slug": "LEV2GLD_2004-11-18_2026-04-12",
+            "ticker": "LEV2GLD",
+            "period": "2004-11-18:2026-04-12",
+            "n_trading_days": 5381,
+            "rank_by_objective": 194,
+            "objective_score": 4.318427458772065e-05,
+            "total_pnl": 7.959903357087777,
+            "annualized_pnl": 0.10814793072141748,
+            "mdd": 0.6730566654221832
+          },
+          {
+            "slug": "LEV3GLD_2004-11-18_2026-04-12",
+            "ticker": "LEV3GLD",
+            "period": "2004-11-18:2026-04-12",
+            "n_trading_days": 5381,
+            "rank_by_objective": 21,
+            "objective_score": 0.0001781289576631665,
+            "total_pnl": 12.923651350906505,
+            "annualized_pnl": 0.13126307324336506,
+            "mdd": 0.6106230133946922
+          }
+        ]
+      }
+    ],
+    "x9.0": [
+      {
+        "objective_exponent_x": 9.0,
+        "overall_rank": 1,
+        "mean_rank_objective": 93.66666666666667,
+        "worst_rank_objective": 203,
+        "mean_objective_score": 0.0003474539843852513,
+        "mean_total_pnl": 8.772897818046335,
+        "mean_annualized_pnl": 0.10964221113649963,
+        "mean_mdd": 0.5588133329301648,
+        "params": {
+          "bear_day_drop_buy_pct": 0.175,
+          "bear_day_surge_partial_exit_pct": 0.02,
+          "bear_day_surge_sell_newest_n": 2,
+          "bear_equity_buy_frac": 0.8,
+          "bear_take_profit_pct": 0.07,
+          "bull_day_drop_buy_pct": 0.002,
+          "bull_day_surge_partial_exit_pct": 0.03,
+          "bull_day_surge_sell_newest_n": 2,
+          "bull_equity_buy_frac": 0.3,
+          "bull_take_profit_pct": 0.3,
+          "commission": 0.0025,
+          "d_interval": 13,
+          "period": 4,
+          "regime_ma_type": "wma",
+          "slippage": 0.001
+        },
+        "by_scenario": [
+          {
+            "slug": "GLD_2004-11-18_2026-04-12",
+            "ticker": "GLD",
+            "period": "2004-11-18:2026-04-12",
+            "n_trading_days": 5381,
+            "rank_by_objective": 67,
+            "objective_score": 0.0010104009166498368,
+            "total_pnl": 5.297846425959515,
+            "annualized_pnl": 0.0900020593655535,
+            "mdd": 0.39276031997361915
+          },
+          {
+            "slug": "LEV2GLD_2004-11-18_2026-04-12",
+            "ticker": "LEV2GLD",
+            "period": "2004-11-18:2026-04-12",
+            "n_trading_days": 5381,
+            "rank_by_objective": 203,
+            "objective_score": 4.501364455058697e-06,
+            "total_pnl": 7.507269065032071,
+            "annualized_pnl": 0.10546097621116912,
+            "mdd": 0.6730566654221828
+          },
+          {
+            "slug": "LEV3GLD_2004-11-18_2026-04-12",
+            "ticker": "LEV3GLD",
+            "period": "2004-11-18:2026-04-12",
+            "n_trading_days": 5381,
+            "rank_by_objective": 11,
+            "objective_score": 2.7459672050858478e-05,
+            "total_pnl": 13.51357796314742,
+            "annualized_pnl": 0.13346359783277628,
+            "mdd": 0.6106230133946923
+          }
+        ]
+      },
+      {
+        "objective_exponent_x": 9.0,
+        "overall_rank": 2,
+        "mean_rank_objective": 99,
+        "worst_rank_objective": 197,
+        "mean_objective_score": 0.00034483447700437895,
+        "mean_total_pnl": 8.69960070246194,
+        "mean_annualized_pnl": 0.10957978229502248,
+        "mean_mdd": 0.5588123693775664,
+        "params": {
+          "bear_day_drop_buy_pct": 0.175,
+          "bear_day_surge_partial_exit_pct": 0.02,
+          "bear_day_surge_sell_newest_n": 2,
+          "bear_equity_buy_frac": 0.8,
+          "bear_take_profit_pct": 0.07,
+          "bull_day_drop_buy_pct": 0.002,
+          "bull_day_surge_partial_exit_pct": 0.03,
+          "bull_day_surge_sell_newest_n": 2,
+          "bull_equity_buy_frac": 0.3,
+          "bull_take_profit_pct": 0.25,
+          "commission": 0.0025,
+          "d_interval": 13,
+          "period": 4,
+          "regime_ma_type": "wma",
+          "slippage": 0.001
+        },
+        "by_scenario": [
+          {
+            "slug": "GLD_2004-11-18_2026-04-12",
+            "ticker": "GLD",
+            "period": "2004-11-18:2026-04-12",
+            "n_trading_days": 5381,
+            "rank_by_objective": 79,
+            "objective_score": 0.0010028804581973503,
+            "total_pnl": 5.215247399391537,
+            "annualized_pnl": 0.08932834292028491,
+            "mdd": 0.3927574293158237
+          },
+          {
+            "slug": "LEV2GLD_2004-11-18_2026-04-12",
+            "ticker": "LEV2GLD",
+            "period": "2004-11-18:2026-04-12",
+            "n_trading_days": 5381,
+            "rank_by_objective": 197,
+            "objective_score": 4.6160510619849155e-06,
+            "total_pnl": 7.959903357087777,
+            "annualized_pnl": 0.10814793072141748,
+            "mdd": 0.6730566654221832
+          },
+          {
+            "slug": "LEV3GLD_2004-11-18_2026-04-12",
+            "ticker": "LEV3GLD",
+            "period": "2004-11-18:2026-04-12",
+            "n_trading_days": 5381,
+            "rank_by_objective": 21,
+            "objective_score": 2.7006921753801574e-05,
+            "total_pnl": 12.923651350906505,
+            "annualized_pnl": 0.13126307324336506,
+            "mdd": 0.6106230133946922
+          }
+        ]
+      }
+    ]
+  },
+  "objective_top_cross_eval": [
+    {
+      "eval_id": 1,
+      "source_scenario": {
+        "slug": "GLD_2004-11-18_2026-04-12",
+        "ticker": "GLD",
+        "period": "2004-11-18:2026-04-12",
+        "n_trading_days": 5381
+      },
+      "rank_by_objective_in_source": 1,
+      "in_source": {
+        "objective_score": 5.17843671076453,
+        "total_pnl": 9.12469337496468,
+        "annualized_pnl": 0.11450875689530293,
+        "mdd": 0.4324810162966627
+      },
+      "params": {
+        "regime_ma_type": "wma",
+        "d_interval": 14,
+        "period": 4,
+        "bear_take_profit_pct": 0.09,
+        "bull_take_profit_pct": 0.25,
+        "bear_day_drop_buy_pct": 0.175,
+        "bull_day_drop_buy_pct": 0.002,
+        "bear_equity_buy_frac": 0.8,
+        "bull_equity_buy_frac": 0.3,
+        "bear_day_surge_partial_exit_pct": 0.05,
+        "bull_day_surge_partial_exit_pct": 0.03,
+        "bear_day_surge_sell_newest_n": 2,
+        "bull_day_surge_sell_newest_n": 2,
+        "commission": 0.0025,
+        "slippage": 0.001
+      },
+      "scenarios_missing_combo": 0,
+      "mean_total_pnl": 8.60475913664134,
+      "mean_objective_score": 2.9113940524160737,
+      "mean_annualized_pnl": 0.11133748438257214,
+      "mean_mdd": 0.6695220458328476,
+      "mean_rank_by_objective": 1469,
+      "worst_rank_by_objective": 2217,
+      "mean_rank_by_pnl": 1704.6666666666667,
+      "worst_rank_by_pnl": 2935,
+      "by_scenario": [
+        {
+          "slug": "GLD_2004-11-18_2026-04-12",
+          "ticker": "GLD",
+          "period": "2004-11-18:2026-04-12",
+          "n_trading_days": 5381,
+          "n_ok_combos": 4200,
+          "in_grid": true,
+          "rank_by_objective": 1,
+          "rank_by_pnl": 1,
+          "objective_score": 5.17843671076453,
+          "total_pnl": 9.12469337496468,
+          "annualized_pnl": 0.11450875689530293,
+          "mdd": 0.4324810162966627
+        },
+        {
+          "slug": "LEV2GLD_2004-11-18_2026-04-12",
+          "ticker": "LEV2GLD",
+          "period": "2004-11-18:2026-04-12",
+          "n_trading_days": 5381,
+          "n_ok_combos": 4200,
+          "in_grid": true,
+          "rank_by_objective": 2217,
+          "rank_by_pnl": 2178,
+          "objective_score": 2.133002727512852,
+          "total_pnl": 9.76757754536002,
+          "annualized_pnl": 0.1177265746239653,
+          "mdd": 0.7816241829043772
+        },
+        {
+          "slug": "LEV3GLD_2004-11-18_2026-04-12",
+          "ticker": "LEV3GLD",
+          "period": "2004-11-18:2026-04-12",
+          "n_trading_days": 5381,
+          "n_ok_combos": 4200,
+          "in_grid": true,
+          "rank_by_objective": 2189,
+          "rank_by_pnl": 2935,
+          "objective_score": 1.4227427189708388,
+          "total_pnl": 6.922006489599317,
+          "annualized_pnl": 0.10177712162844821,
+          "mdd": 0.794460938297503
+        }
+      ]
+    },
+    {
+      "eval_id": 2,
+      "source_scenario": {
+        "slug": "GLD_2004-11-18_2026-04-12",
+        "ticker": "GLD",
+        "period": "2004-11-18:2026-04-12",
+        "n_trading_days": 5381
+      },
+      "rank_by_objective_in_source": 2,
+      "in_source": {
+        "objective_score": 5.17843671076453,
+        "total_pnl": 9.12469337496468,
+        "annualized_pnl": 0.11450875689530293,
+        "mdd": 0.4324810162966627
+      },
+      "params": {
+        "regime_ma_type": "wma",
+        "d_interval": 14,
+        "period": 4,
+        "bear_take_profit_pct": 0.09,
+        "bull_take_profit_pct": 0.25,
+        "bear_day_drop_buy_pct": 0.175,
+        "bull_day_drop_buy_pct": 0.002,
+        "bear_equity_buy_frac": 0.8,
+        "bull_equity_buy_frac": 0.3,
+        "bear_day_surge_partial_exit_pct": 0.06,
+        "bull_day_surge_partial_exit_pct": 0.03,
+        "bear_day_surge_sell_newest_n": 2,
+        "bull_day_surge_sell_newest_n": 2,
+        "commission": 0.0025,
+        "slippage": 0.001
+      },
+      "scenarios_missing_combo": 0,
+      "mean_total_pnl": 10.531617932450356,
+      "mean_objective_score": 3.684015359817983,
+      "mean_annualized_pnl": 0.11870073799324299,
+      "mean_mdd": 0.6511220882885773,
+      "mean_rank_by_objective": 1078,
+      "worst_rank_by_objective": 2465,
+      "mean_rank_by_pnl": 1344.3333333333333,
+      "worst_rank_by_pnl": 2985,
+      "by_scenario": [
+        {
+          "slug": "GLD_2004-11-18_2026-04-12",
+          "ticker": "GLD",
+          "period": "2004-11-18:2026-04-12",
+          "n_trading_days": 5381,
+          "n_ok_combos": 4200,
+          "in_grid": true,
+          "rank_by_objective": 2,
+          "rank_by_pnl": 2,
+          "objective_score": 5.17843671076453,
+          "total_pnl": 9.12469337496468,
+          "annualized_pnl": 0.11450875689530293,
+          "mdd": 0.4324810162966627
+        },
+        {
+          "slug": "LEV2GLD_2004-11-18_2026-04-12",
+          "ticker": "LEV2GLD",
+          "period": "2004-11-18:2026-04-12",
+          "n_trading_days": 5381,
+          "n_ok_combos": 4200,
+          "in_grid": true,
+          "rank_by_objective": 767,
+          "rank_by_pnl": 1046,
+          "objective_score": 4.627430037148848,
+          "total_pnl": 15.73541632831271,
+          "annualized_pnl": 0.14104997333894542,
+          "mdd": 0.7059226180865186
+        },
+        {
+          "slug": "LEV3GLD_2004-11-18_2026-04-12",
+          "ticker": "LEV3GLD",
+          "period": "2004-11-18:2026-04-12",
+          "n_trading_days": 5381,
+          "n_ok_combos": 4200,
+          "in_grid": true,
+          "rank_by_objective": 2465,
+          "rank_by_pnl": 2985,
+          "objective_score": 1.24617933154057,
+          "total_pnl": 6.73474409407368,
+          "annualized_pnl": 0.10054348374548061,
+          "mdd": 0.8149626304825508
+        }
+      ]
+    },
+    {
+      "eval_id": 3,
+      "source_scenario": {
+        "slug": "LEV2GLD_2004-11-18_2026-04-12",
+        "ticker": "LEV2GLD",
+        "period": "2004-11-18:2026-04-12",
+        "n_trading_days": 5381
+      },
+      "rank_by_objective_in_source": 1,
+      "in_source": {
+        "objective_score": 14.175349782482394,
+        "total_pnl": 43.54792536444137,
+        "annualized_pnl": 0.19458476549937798,
+        "mdd": 0.6744885166433867
+      },
+      "params": {
+        "regime_ma_type": "ema",
+        "d_interval": 14,
+        "period": 4,
+        "bear_take_profit_pct": 0.09,
+        "bull_take_profit_pct": 0.25,
+        "bear_day_drop_buy_pct": 0.175,
+        "bull_day_drop_buy_pct": 0.002,
+        "bear_equity_buy_frac": 0.8,
+        "bull_equity_buy_frac": 0.3,
+        "bear_day_surge_partial_exit_pct": 0.06,
+        "bull_day_surge_partial_exit_pct": 0.06,
+        "bear_day_surge_sell_newest_n": 2,
+        "bull_day_surge_sell_newest_n": 2,
+        "commission": 0.0025,
+        "slippage": 0.001
+      },
+      "scenarios_missing_combo": 0,
+      "mean_total_pnl": 28.82618924213545,
+      "mean_objective_score": 7.363945015805872,
+      "mean_annualized_pnl": 0.16263643125056934,
+      "mean_mdd": 0.677497910149606,
+      "mean_rank_by_objective": 280.6666666666667,
+      "worst_rank_by_objective": 799,
+      "mean_rank_by_pnl": 27.333333333333332,
+      "worst_rank_by_pnl": 53,
+      "by_scenario": [
+        {
+          "slug": "GLD_2004-11-18_2026-04-12",
+          "ticker": "GLD",
+          "period": "2004-11-18:2026-04-12",
+          "n_trading_days": 5381,
+          "n_ok_combos": 4200,
+          "in_grid": true,
+          "rank_by_objective": 42,
+          "rank_by_pnl": 28,
+          "objective_score": 4.7030765643747365,
+          "total_pnl": 8.575042542196993,
+          "annualized_pnl": 0.11159922749012807,
+          "mdd": 0.45153898173317153
+        },
+        {
+          "slug": "LEV2GLD_2004-11-18_2026-04-12",
+          "ticker": "LEV2GLD",
+          "period": "2004-11-18:2026-04-12",
+          "n_trading_days": 5381,
+          "n_ok_combos": 4200,
+          "in_grid": true,
+          "rank_by_objective": 1,
+          "rank_by_pnl": 1,
+          "objective_score": 14.175349782482394,
+          "total_pnl": 43.54792536444137,
+          "annualized_pnl": 0.19458476549937798,
+          "mdd": 0.6744885166433867
+        },
+        {
+          "slug": "LEV3GLD_2004-11-18_2026-04-12",
+          "ticker": "LEV3GLD",
+          "period": "2004-11-18:2026-04-12",
+          "n_trading_days": 5381,
+          "n_ok_combos": 4200,
+          "in_grid": true,
+          "rank_by_objective": 799,
+          "rank_by_pnl": 53,
+          "objective_score": 3.213408700560486,
+          "total_pnl": 34.35559981976798,
+          "annualized_pnl": 0.18172530076220195,
+          "mdd": 0.90646623207226
+        }
+      ]
+    },
+    {
+      "eval_id": 4,
+      "source_scenario": {
+        "slug": "LEV2GLD_2004-11-18_2026-04-12",
+        "ticker": "LEV2GLD",
+        "period": "2004-11-18:2026-04-12",
+        "n_trading_days": 5381
+      },
+      "rank_by_objective_in_source": 2,
+      "in_source": {
+        "objective_score": 13.212732520079266,
+        "total_pnl": 42.14958886872507,
+        "annualized_pnl": 0.19280188822912203,
+        "mdd": 0.686527606206781
+      },
+      "params": {
+        "regime_ma_type": "ema",
+        "d_interval": 14,
+        "period": 4,
+        "bear_take_profit_pct": 0.09,
+        "bull_take_profit_pct": 0.25,
+        "bear_day_drop_buy_pct": 0.2,
+        "bull_day_drop_buy_pct": 0.002,
+        "bear_equity_buy_frac": 0.8,
+        "bull_equity_buy_frac": 0.3,
+        "bear_day_surge_partial_exit_pct": 0.06,
+        "bull_day_surge_partial_exit_pct": 0.06,
+        "bear_day_surge_sell_newest_n": 2,
+        "bull_day_surge_sell_newest_n": 2,
+        "commission": 0.0025,
+        "slippage": 0.001
+      },
+      "scenarios_missing_combo": 0,
+      "mean_total_pnl": 28.36007707689668,
+      "mean_objective_score": 7.04307259500483,
+      "mean_annualized_pnl": 0.16204213882715068,
+      "mean_mdd": 0.6815109400040709,
+      "mean_rank_by_objective": 282.6666666666667,
+      "worst_rank_by_objective": 800,
+      "mean_rank_by_pnl": 29.333333333333332,
+      "worst_rank_by_pnl": 54,
+      "by_scenario": [
+        {
+          "slug": "GLD_2004-11-18_2026-04-12",
+          "ticker": "GLD",
+          "period": "2004-11-18:2026-04-12",
+          "n_trading_days": 5381,
+          "n_ok_combos": 4200,
+          "in_grid": true,
+          "rank_by_objective": 46,
+          "rank_by_pnl": 32,
+          "objective_score": 4.7030765643747365,
+          "total_pnl": 8.575042542196993,
+          "annualized_pnl": 0.11159922749012807,
+          "mdd": 0.45153898173317153
+        },
+        {
+          "slug": "LEV2GLD_2004-11-18_2026-04-12",
+          "ticker": "LEV2GLD",
+          "period": "2004-11-18:2026-04-12",
+          "n_trading_days": 5381,
+          "n_ok_combos": 4200,
+          "in_grid": true,
+          "rank_by_objective": 2,
+          "rank_by_pnl": 2,
+          "objective_score": 13.212732520079266,
+          "total_pnl": 42.14958886872507,
+          "annualized_pnl": 0.19280188822912203,
+          "mdd": 0.686527606206781
+        },
+        {
+          "slug": "LEV3GLD_2004-11-18_2026-04-12",
+          "ticker": "LEV3GLD",
+          "period": "2004-11-18:2026-04-12",
+          "n_trading_days": 5381,
+          "n_ok_combos": 4200,
+          "in_grid": true,
+          "rank_by_objective": 800,
+          "rank_by_pnl": 54,
+          "objective_score": 3.213408700560486,
+          "total_pnl": 34.35559981976798,
+          "annualized_pnl": 0.18172530076220195,
+          "mdd": 0.90646623207226
+        }
+      ]
+    },
+    {
+      "eval_id": 5,
+      "source_scenario": {
+        "slug": "LEV3GLD_2004-11-18_2026-04-12",
+        "ticker": "LEV3GLD",
+        "period": "2004-11-18:2026-04-12",
+        "n_trading_days": 5381
+      },
+      "rank_by_objective_in_source": 1,
+      "in_source": {
+        "objective_score": 7.705154349431458,
+        "total_pnl": 42.75663757716853,
+        "annualized_pnl": 0.19358254054044433,
+        "mdd": 0.8197904515871962
+      },
+      "params": {
+        "regime_ma_type": "wma",
+        "d_interval": 14,
+        "period": 4,
+        "bear_take_profit_pct": 0.09,
+        "bull_take_profit_pct": 0.25,
+        "bear_day_drop_buy_pct": 0.175,
+        "bull_day_drop_buy_pct": 0.002,
+        "bear_equity_buy_frac": 0.8,
+        "bull_equity_buy_frac": 0.3,
+        "bear_day_surge_partial_exit_pct": 0.02,
+        "bull_day_surge_partial_exit_pct": 0.1,
+        "bear_day_surge_sell_newest_n": 2,
+        "bull_day_surge_sell_newest_n": 2,
+        "commission": 0.0025,
+        "slippage": 0.001
+      },
+      "scenarios_missing_combo": 0,
+      "mean_total_pnl": 17.851502242556936,
+      "mean_objective_score": 3.7557639733919768,
+      "mean_annualized_pnl": 0.12436313057204258,
+      "mean_mdd": 0.6977782220383049,
+      "mean_rank_by_objective": 2113.3333333333335,
+      "worst_rank_by_objective": 3528,
+      "mean_rank_by_pnl": 2040.6666666666667,
+      "worst_rank_by_pnl": 3420,
+      "by_scenario": [
+        {
+          "slug": "GLD_2004-11-18_2026-04-12",
+          "ticker": "GLD",
+          "period": "2004-11-18:2026-04-12",
+          "n_trading_days": 5381,
+          "n_ok_combos": 4200,
+          "in_grid": true,
+          "rank_by_objective": 3528,
+          "rank_by_pnl": 3420,
+          "objective_score": 2.0354852495218685,
+          "total_pnl": 4.076501418809803,
+          "annualized_pnl": 0.07905257362868268,
+          "mdd": 0.5006783905115972
+        },
+        {
+          "slug": "LEV2GLD_2004-11-18_2026-04-12",
+          "ticker": "LEV2GLD",
+          "period": "2004-11-18:2026-04-12",
+          "n_trading_days": 5381,
+          "n_ok_combos": 4200,
+          "in_grid": true,
+          "rank_by_objective": 2811,
+          "rank_by_pnl": 2701,
+          "objective_score": 1.526652321222603,
+          "total_pnl": 6.7213677316924745,
+          "annualized_pnl": 0.10045427754700076,
+          "mdd": 0.7728658240161211
+        },
+        {
+          "slug": "LEV3GLD_2004-11-18_2026-04-12",
+          "ticker": "LEV3GLD",
+          "period": "2004-11-18:2026-04-12",
+          "n_trading_days": 5381,
+          "n_ok_combos": 4200,
+          "in_grid": true,
+          "rank_by_objective": 1,
+          "rank_by_pnl": 1,
+          "objective_score": 7.705154349431458,
+          "total_pnl": 42.75663757716853,
+          "annualized_pnl": 0.19358254054044433,
+          "mdd": 0.8197904515871962
+        }
+      ]
+    },
+    {
+      "eval_id": 6,
+      "source_scenario": {
+        "slug": "LEV3GLD_2004-11-18_2026-04-12",
+        "ticker": "LEV3GLD",
+        "period": "2004-11-18:2026-04-12",
+        "n_trading_days": 5381
+      },
+      "rank_by_objective_in_source": 2,
+      "in_source": {
+        "objective_score": 7.705154349431458,
+        "total_pnl": 42.75663757716853,
+        "annualized_pnl": 0.19358254054044433,
+        "mdd": 0.8197904515871962
+      },
+      "params": {
+        "regime_ma_type": "wma",
+        "d_interval": 14,
+        "period": 4,
+        "bear_take_profit_pct": 0.09,
+        "bull_take_profit_pct": 0.25,
+        "bear_day_drop_buy_pct": 0.2,
+        "bull_day_drop_buy_pct": 0.002,
+        "bear_equity_buy_frac": 0.8,
+        "bull_equity_buy_frac": 0.3,
+        "bear_day_surge_partial_exit_pct": 0.02,
+        "bull_day_surge_partial_exit_pct": 0.1,
+        "bear_day_surge_sell_newest_n": 2,
+        "bull_day_surge_sell_newest_n": 2,
+        "commission": 0.0025,
+        "slippage": 0.001
+      },
+      "scenarios_missing_combo": 0,
+      "mean_total_pnl": 17.817642128597473,
+      "mean_objective_score": 3.7414796130199144,
+      "mean_annualized_pnl": 0.12413570380241112,
+      "mean_mdd": 0.6987742617750651,
+      "mean_rank_by_objective": 2129.3333333333335,
+      "worst_rank_by_objective": 3530,
+      "mean_rank_by_pnl": 2049,
+      "worst_rank_by_pnl": 3422,
+      "by_scenario": [
+        {
+          "slug": "GLD_2004-11-18_2026-04-12",
+          "ticker": "GLD",
+          "period": "2004-11-18:2026-04-12",
+          "n_trading_days": 5381,
+          "n_ok_combos": 4200,
+          "in_grid": true,
+          "rank_by_objective": 3530,
+          "rank_by_pnl": 3422,
+          "objective_score": 2.0354852495218685,
+          "total_pnl": 4.076501418809803,
+          "annualized_pnl": 0.07905257362868268,
+          "mdd": 0.5006783905115972
+        },
+        {
+          "slug": "LEV2GLD_2004-11-18_2026-04-12",
+          "ticker": "LEV2GLD",
+          "period": "2004-11-18:2026-04-12",
+          "n_trading_days": 5381,
+          "n_ok_combos": 4200,
+          "in_grid": true,
+          "rank_by_objective": 2856,
+          "rank_by_pnl": 2723,
+          "objective_score": 1.483799240106416,
+          "total_pnl": 6.619787389814081,
+          "annualized_pnl": 0.09977199723810637,
+          "mdd": 0.7758539432264019
+        },
+        {
+          "slug": "LEV3GLD_2004-11-18_2026-04-12",
+          "ticker": "LEV3GLD",
+          "period": "2004-11-18:2026-04-12",
+          "n_trading_days": 5381,
+          "n_ok_combos": 4200,
+          "in_grid": true,
+          "rank_by_objective": 2,
+          "rank_by_pnl": 2,
+          "objective_score": 7.705154349431458,
+          "total_pnl": 42.75663757716853,
+          "annualized_pnl": 0.19358254054044433,
+          "mdd": 0.8197904515871962
+        }
+      ]
+    }
+  ]
+}

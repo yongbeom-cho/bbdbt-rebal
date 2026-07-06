@@ -1,0 +1,11 @@
+{
+  "ticker": "LEV3GLD",
+  "period": "2004-11-18:2026-04-12",
+  "db_path": "/Users/yongbeom/cyb/project/2026/bear-bull-drop-buy-trading/var/data/usaetf_ohlcv_day.db",
+  "warmup_bars": 300,
+  "objective_power": 1.0,
+  "n_combos_naive": 4200,
+  "n_combos": 4200,
+  "n_saved_sell_all_cont_bear_redundant": 0,
+  "n_saved_easy_sell_bear_redundant": 0
+}

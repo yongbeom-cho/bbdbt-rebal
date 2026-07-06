@@ -1,0 +1,39 @@
+{
+  "strategies": [
+    {
+      "ticker": "SOXL",
+      "exchange": "아멕스"
+    },
+    {
+      "ticker": "SHNY",
+      "exchange": "아멕스"
+    },
+    {
+      "ticker": "TQQQ",
+      "exchange": "나스닥"
+    }
+  ],
+  "ohlcv_bars": 200,
+  "retry_cnt": 5,
+  "chunk_limit_usd": 50000,
+  "us_regular_close_hhmm": "16:00",
+  "minutes_before_close": 10,
+  "pre_close_sleep_seconds": 60,
+  "strategy_params": {
+    "regime_ma_type": "wma",
+    "d_interval": 22,
+    "period": 7,
+    "bear_take_profit_pct": 0.0267,
+    "bull_take_profit_pct": 0.2787,
+    "bear_day_drop_buy_pct": 0.2121,
+    "bull_day_drop_buy_pct": 0.0034,
+    "bear_equity_buy_frac": 0.6403,
+    "bull_equity_buy_frac": 0.2498,
+    "bear_day_surge_partial_exit_pct": 0.0343,
+    "bull_day_surge_partial_exit_pct": 0.0897,
+    "bear_day_surge_sell_newest_n": 3,
+    "bull_day_surge_sell_newest_n": 3,
+    "commission": 0.0025,
+    "slippage": 0.001
+  }
+}

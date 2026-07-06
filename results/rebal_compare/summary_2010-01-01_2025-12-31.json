@@ -1,0 +1,881 @@
+[
+{
+  "tickers": [
+    "LEV3SOX",
+    "LEV3GOLD",
+    "LEV3NASDAQ"
+  ],
+  "config": "/Users/yongbeom/cyb/project/2026/bbdbt-rebal/auto_trader/config14.json",
+  "period": "2010-01-01:2025-12-31",
+  "capital": 300000.0,
+  "rebal_enabled": false,
+  "rebal_threshold": null,
+  "rebal_cooldown": null,
+  "n_rebal_events": 0,
+  "start_date": "2008-11-07",
+  "end_date": "2025-12-31",
+  "n_trading_days": 4313,
+  "portfolio": {
+    "total_pnl_pct": 11853.09,
+    "cagr_pct": 32.18,
+    "cagr_trading_days_pct": 32.25,
+    "final_equity": 35859259.59,
+    "mdd_pct": 53.13
+  },
+  "per_ticker": {
+    "LEV3SOX": {
+      "total_pnl_pct": 22253.16,
+      "final_equity": 22353157.8,
+      "mdd_pct": 61.2,
+      "final_cash": 0.0,
+      "n_lots": 5
+    },
+    "LEV3GOLD": {
+      "total_pnl_pct": 503.47,
+      "final_equity": 603468.61,
+      "mdd_pct": 93.44,
+      "final_cash": 0.0,
+      "n_lots": 4
+    },
+    "LEV3NASDAQ": {
+      "total_pnl_pct": 12802.63,
+      "final_equity": 12902633.18,
+      "mdd_pct": 58.47,
+      "final_cash": 0.0,
+      "n_lots": 5
+    }
+  }
+}
+,
+{
+  "tickers": [
+    "LEV3SOX",
+    "LEV3GOLD",
+    "LEV3NASDAQ"
+  ],
+  "config": "/Users/yongbeom/cyb/project/2026/bbdbt-rebal/auto_trader/config14.json",
+  "period": "2010-01-01:2025-12-31",
+  "capital": 300000.0,
+  "rebal_enabled": true,
+  "rebal_threshold": 0.15,
+  "rebal_cooldown": 20,
+  "n_rebal_events": 14,
+  "start_date": "2008-11-07",
+  "end_date": "2025-12-31",
+  "n_trading_days": 4313,
+  "portfolio": {
+    "total_pnl_pct": 13931.74,
+    "cagr_pct": 33.42,
+    "cagr_trading_days_pct": 33.49,
+    "final_equity": 42095211.03,
+    "mdd_pct": 48.16
+  },
+  "per_ticker": {
+    "LEV3SOX": {
+      "total_pnl_pct": 13434.22,
+      "final_equity": 13534216.62,
+      "mdd_pct": 67.62,
+      "final_cash": 0.0,
+      "n_lots": 5
+    },
+    "LEV3GOLD": {
+      "total_pnl_pct": 18693.24,
+      "final_equity": 18793242.33,
+      "mdd_pct": 73.25,
+      "final_cash": 0.0,
+      "n_lots": 4
+    },
+    "LEV3NASDAQ": {
+      "total_pnl_pct": 9667.75,
+      "final_equity": 9767752.08,
+      "mdd_pct": 53.9,
+      "final_cash": 0.0,
+      "n_lots": 5
+    }
+  }
+}
+,
+{
+  "tickers": [
+    "LEV3GOLD",
+    "LEV3NASDAQ"
+  ],
+  "config": "/Users/yongbeom/cyb/project/2026/bbdbt-rebal/auto_trader/config14.json",
+  "period": "2010-01-01:2025-12-31",
+  "capital": 300000.0,
+  "rebal_enabled": false,
+  "rebal_threshold": null,
+  "rebal_cooldown": null,
+  "n_rebal_events": 0,
+  "start_date": "2008-11-07",
+  "end_date": "2025-12-31",
+  "n_trading_days": 4313,
+  "portfolio": {
+    "total_pnl_pct": 6653.05,
+    "cagr_pct": 27.85,
+    "cagr_trading_days_pct": 27.91,
+    "final_equity": 20259152.68,
+    "mdd_pct": 52.92
+  },
+  "per_ticker": {
+    "LEV3GOLD": {
+      "total_pnl_pct": 503.47,
+      "final_equity": 905202.91,
+      "mdd_pct": 93.44,
+      "final_cash": 0.0,
+      "n_lots": 4
+    },
+    "LEV3NASDAQ": {
+      "total_pnl_pct": 12802.63,
+      "final_equity": 19353949.77,
+      "mdd_pct": 58.47,
+      "final_cash": 0.0,
+      "n_lots": 5
+    }
+  }
+}
+,
+{
+  "tickers": [
+    "LEV3GOLD",
+    "LEV3NASDAQ"
+  ],
+  "config": "/Users/yongbeom/cyb/project/2026/bbdbt-rebal/auto_trader/config14.json",
+  "period": "2010-01-01:2025-12-31",
+  "capital": 300000.0,
+  "rebal_enabled": true,
+  "rebal_threshold": 0.15,
+  "rebal_cooldown": 20,
+  "n_rebal_events": 16,
+  "start_date": "2008-11-07",
+  "end_date": "2025-12-31",
+  "n_trading_days": 4313,
+  "portfolio": {
+    "total_pnl_pct": 6890.01,
+    "cagr_pct": 28.11,
+    "cagr_trading_days_pct": 28.16,
+    "final_equity": 20970030.87,
+    "mdd_pct": 55.87
+  },
+  "per_ticker": {
+    "LEV3GOLD": {
+      "total_pnl_pct": 6669.32,
+      "final_equity": 10153977.31,
+      "mdd_pct": 74.19,
+      "final_cash": 0.0,
+      "n_lots": 4
+    },
+    "LEV3NASDAQ": {
+      "total_pnl_pct": 7110.7,
+      "final_equity": 10816053.56,
+      "mdd_pct": 65.76,
+      "final_cash": 0.0,
+      "n_lots": 7
+    }
+  }
+}
+,
+{
+  "tickers": [
+    "LEV3SOX",
+    "LEV3GOLD",
+    "LEV3NASDAQ"
+  ],
+  "config": "/Users/yongbeom/cyb/project/2026/bbdbt-rebal/auto_trader/config15.json",
+  "period": "2010-01-01:2025-12-31",
+  "capital": 300000.0,
+  "rebal_enabled": false,
+  "rebal_threshold": null,
+  "rebal_cooldown": null,
+  "n_rebal_events": 0,
+  "start_date": "2008-11-07",
+  "end_date": "2025-12-31",
+  "n_trading_days": 4313,
+  "portfolio": {
+    "total_pnl_pct": 18074.65,
+    "cagr_pct": 35.45,
+    "cagr_trading_days_pct": 35.52,
+    "final_equity": 54523937.8,
+    "mdd_pct": 53.07
+  },
+  "per_ticker": {
+    "LEV3SOX": {
+      "total_pnl_pct": 38420.17,
+      "final_equity": 38520174.81,
+      "mdd_pct": 62.99,
+      "final_cash": 4273611.22,
+      "n_lots": 3
+    },
+    "LEV3GOLD": {
+      "total_pnl_pct": 1107.87,
+      "final_equity": 1207871.55,
+      "mdd_pct": 93.17,
+      "final_cash": 0.0,
+      "n_lots": 4
+    },
+    "LEV3NASDAQ": {
+      "total_pnl_pct": 14695.89,
+      "final_equity": 14795891.43,
+      "mdd_pct": 58.96,
+      "final_cash": 0.0,
+      "n_lots": 5
+    }
+  }
+}
+,
+{
+  "tickers": [
+    "LEV3SOX",
+    "LEV3GOLD",
+    "LEV3NASDAQ"
+  ],
+  "config": "/Users/yongbeom/cyb/project/2026/bbdbt-rebal/auto_trader/config15.json",
+  "period": "2010-01-01:2025-12-31",
+  "capital": 300000.0,
+  "rebal_enabled": true,
+  "rebal_threshold": 0.15,
+  "rebal_cooldown": 20,
+  "n_rebal_events": 15,
+  "start_date": "2008-11-07",
+  "end_date": "2025-12-31",
+  "n_trading_days": 4313,
+  "portfolio": {
+    "total_pnl_pct": 23327.47,
+    "cagr_pct": 37.47,
+    "cagr_trading_days_pct": 37.55,
+    "final_equity": 70282423.43,
+    "mdd_pct": 52.78
+  },
+  "per_ticker": {
+    "LEV3SOX": {
+      "total_pnl_pct": 20196.64,
+      "final_equity": 20296637.4,
+      "mdd_pct": 64.01,
+      "final_cash": 2251805.39,
+      "n_lots": 3
+    },
+    "LEV3GOLD": {
+      "total_pnl_pct": 31647.78,
+      "final_equity": 31747776.08,
+      "mdd_pct": 68.21,
+      "final_cash": 0.0,
+      "n_lots": 4
+    },
+    "LEV3NASDAQ": {
+      "total_pnl_pct": 18138.01,
+      "final_equity": 18238009.94,
+      "mdd_pct": 67.83,
+      "final_cash": 0.0,
+      "n_lots": 5
+    }
+  }
+}
+,
+{
+  "tickers": [
+    "LEV3GOLD",
+    "LEV3NASDAQ"
+  ],
+  "config": "/Users/yongbeom/cyb/project/2026/bbdbt-rebal/auto_trader/config15.json",
+  "period": "2010-01-01:2025-12-31",
+  "capital": 300000.0,
+  "rebal_enabled": false,
+  "rebal_threshold": null,
+  "rebal_cooldown": null,
+  "n_rebal_events": 0,
+  "start_date": "2008-11-07",
+  "end_date": "2025-12-31",
+  "n_trading_days": 4313,
+  "portfolio": {
+    "total_pnl_pct": 7901.88,
+    "cagr_pct": 29.12,
+    "cagr_trading_days_pct": 29.18,
+    "final_equity": 24005644.48,
+    "mdd_pct": 61.76
+  },
+  "per_ticker": {
+    "LEV3GOLD": {
+      "total_pnl_pct": 1107.87,
+      "final_equity": 1811807.33,
+      "mdd_pct": 93.17,
+      "final_cash": 0.0,
+      "n_lots": 4
+    },
+    "LEV3NASDAQ": {
+      "total_pnl_pct": 14695.89,
+      "final_equity": 22193837.15,
+      "mdd_pct": 58.96,
+      "final_cash": 0.0,
+      "n_lots": 5
+    }
+  }
+}
+,
+{
+  "tickers": [
+    "LEV3GOLD",
+    "LEV3NASDAQ"
+  ],
+  "config": "/Users/yongbeom/cyb/project/2026/bbdbt-rebal/auto_trader/config15.json",
+  "period": "2010-01-01:2025-12-31",
+  "capital": 300000.0,
+  "rebal_enabled": true,
+  "rebal_threshold": 0.15,
+  "rebal_cooldown": 20,
+  "n_rebal_events": 11,
+  "start_date": "2008-11-07",
+  "end_date": "2025-12-31",
+  "n_trading_days": 4313,
+  "portfolio": {
+    "total_pnl_pct": 9731.04,
+    "cagr_pct": 30.68,
+    "cagr_trading_days_pct": 30.74,
+    "final_equity": 29493130.45,
+    "mdd_pct": 57.13
+  },
+  "per_ticker": {
+    "LEV3GOLD": {
+      "total_pnl_pct": 12114.01,
+      "final_equity": 18321016.49,
+      "mdd_pct": 81.9,
+      "final_cash": 0.0,
+      "n_lots": 4
+    },
+    "LEV3NASDAQ": {
+      "total_pnl_pct": 7348.08,
+      "final_equity": 11172113.96,
+      "mdd_pct": 62.22,
+      "final_cash": 0.0,
+      "n_lots": 5
+    }
+  }
+}
+,
+{
+  "tickers": [
+    "LEV3SOX",
+    "LEV3GOLD",
+    "LEV3NASDAQ"
+  ],
+  "config": "/Users/yongbeom/cyb/project/2026/bbdbt-rebal/auto_trader/config37.json",
+  "period": "2010-01-01:2025-12-31",
+  "capital": 300000.0,
+  "rebal_enabled": false,
+  "rebal_threshold": null,
+  "rebal_cooldown": null,
+  "n_rebal_events": 0,
+  "start_date": "2008-11-07",
+  "end_date": "2025-12-31",
+  "n_trading_days": 4313,
+  "portfolio": {
+    "total_pnl_pct": 14526.65,
+    "cagr_pct": 33.74,
+    "cagr_trading_days_pct": 33.82,
+    "final_equity": 43879954.3,
+    "mdd_pct": 46.75
+  },
+  "per_ticker": {
+    "LEV3SOX": {
+      "total_pnl_pct": 32873.46,
+      "final_equity": 32973462.49,
+      "mdd_pct": 62.59,
+      "final_cash": 0.0,
+      "n_lots": 4
+    },
+    "LEV3GOLD": {
+      "total_pnl_pct": 971.72,
+      "final_equity": 1071723.97,
+      "mdd_pct": 85.56,
+      "final_cash": 42859.83,
+      "n_lots": 4
+    },
+    "LEV3NASDAQ": {
+      "total_pnl_pct": 9734.77,
+      "final_equity": 9834767.83,
+      "mdd_pct": 56.59,
+      "final_cash": 0.0,
+      "n_lots": 5
+    }
+  }
+}
+,
+{
+  "tickers": [
+    "LEV3SOX",
+    "LEV3GOLD",
+    "LEV3NASDAQ"
+  ],
+  "config": "/Users/yongbeom/cyb/project/2026/bbdbt-rebal/auto_trader/config37.json",
+  "period": "2010-01-01:2025-12-31",
+  "capital": 300000.0,
+  "rebal_enabled": true,
+  "rebal_threshold": 0.15,
+  "rebal_cooldown": 20,
+  "n_rebal_events": 16,
+  "start_date": "2008-11-07",
+  "end_date": "2025-12-31",
+  "n_trading_days": 4313,
+  "portfolio": {
+    "total_pnl_pct": 15740.87,
+    "cagr_pct": 34.37,
+    "cagr_trading_days_pct": 34.44,
+    "final_equity": 47522605.23,
+    "mdd_pct": 38.21
+  },
+  "per_ticker": {
+    "LEV3SOX": {
+      "total_pnl_pct": 16793.01,
+      "final_equity": 16893007.23,
+      "mdd_pct": 54.59,
+      "final_cash": 0.0,
+      "n_lots": 5
+    },
+    "LEV3GOLD": {
+      "total_pnl_pct": 17505.12,
+      "final_equity": 17605122.76,
+      "mdd_pct": 65.39,
+      "final_cash": 704054.94,
+      "n_lots": 4
+    },
+    "LEV3NASDAQ": {
+      "total_pnl_pct": 12924.48,
+      "final_equity": 13024475.23,
+      "mdd_pct": 56.56,
+      "final_cash": 0.0,
+      "n_lots": 5
+    }
+  }
+}
+,
+{
+  "tickers": [
+    "LEV3GOLD",
+    "LEV3NASDAQ"
+  ],
+  "config": "/Users/yongbeom/cyb/project/2026/bbdbt-rebal/auto_trader/config37.json",
+  "period": "2010-01-01:2025-12-31",
+  "capital": 300000.0,
+  "rebal_enabled": false,
+  "rebal_threshold": null,
+  "rebal_cooldown": null,
+  "n_rebal_events": 0,
+  "start_date": "2008-11-07",
+  "end_date": "2025-12-31",
+  "n_trading_days": 4313,
+  "portfolio": {
+    "total_pnl_pct": 5353.25,
+    "cagr_pct": 26.26,
+    "cagr_trading_days_pct": 26.32,
+    "final_equity": 16359737.71,
+    "mdd_pct": 46.11
+  },
+  "per_ticker": {
+    "LEV3GOLD": {
+      "total_pnl_pct": 971.72,
+      "final_equity": 1607585.96,
+      "mdd_pct": 85.56,
+      "final_cash": 64289.74,
+      "n_lots": 4
+    },
+    "LEV3NASDAQ": {
+      "total_pnl_pct": 9734.77,
+      "final_equity": 14752151.75,
+      "mdd_pct": 56.59,
+      "final_cash": 0.0,
+      "n_lots": 5
+    }
+  }
+}
+,
+{
+  "tickers": [
+    "LEV3GOLD",
+    "LEV3NASDAQ"
+  ],
+  "config": "/Users/yongbeom/cyb/project/2026/bbdbt-rebal/auto_trader/config37.json",
+  "period": "2010-01-01:2025-12-31",
+  "capital": 300000.0,
+  "rebal_enabled": true,
+  "rebal_threshold": 0.15,
+  "rebal_cooldown": 20,
+  "n_rebal_events": 9,
+  "start_date": "2008-11-07",
+  "end_date": "2025-12-31",
+  "n_trading_days": 4313,
+  "portfolio": {
+    "total_pnl_pct": 5959.72,
+    "cagr_pct": 27.04,
+    "cagr_trading_days_pct": 27.1,
+    "final_equity": 18179161.67,
+    "mdd_pct": 36.92
+  },
+  "per_ticker": {
+    "LEV3GOLD": {
+      "total_pnl_pct": 7519.16,
+      "final_equity": 11428739.46,
+      "mdd_pct": 60.79,
+      "final_cash": 457052.22,
+      "n_lots": 4
+    },
+    "LEV3NASDAQ": {
+      "total_pnl_pct": 4400.28,
+      "final_equity": 6750422.21,
+      "mdd_pct": 63.83,
+      "final_cash": 0.0,
+      "n_lots": 5
+    }
+  }
+}
+,
+{
+  "tickers": [
+    "LEV3SOX",
+    "LEV3GOLD",
+    "LEV3NASDAQ"
+  ],
+  "config": "/Users/yongbeom/cyb/project/2026/bbdbt-rebal/auto_trader/config40.json",
+  "period": "2010-01-01:2025-12-31",
+  "capital": 300000.0,
+  "rebal_enabled": false,
+  "rebal_threshold": null,
+  "rebal_cooldown": null,
+  "n_rebal_events": 0,
+  "start_date": "2008-11-07",
+  "end_date": "2025-12-31",
+  "n_trading_days": 4313,
+  "portfolio": {
+    "total_pnl_pct": 12189.39,
+    "cagr_pct": 32.39,
+    "cagr_trading_days_pct": 32.46,
+    "final_equity": 36868167.66,
+    "mdd_pct": 41.84
+  },
+  "per_ticker": {
+    "LEV3SOX": {
+      "total_pnl_pct": 22240.54,
+      "final_equity": 22340535.18,
+      "mdd_pct": 62.24,
+      "final_cash": 0.0,
+      "n_lots": 4
+    },
+    "LEV3GOLD": {
+      "total_pnl_pct": 1059.67,
+      "final_equity": 1159665.82,
+      "mdd_pct": 84.3,
+      "final_cash": 46376.75,
+      "n_lots": 4
+    },
+    "LEV3NASDAQ": {
+      "total_pnl_pct": 13267.97,
+      "final_equity": 13367966.65,
+      "mdd_pct": 52.92,
+      "final_cash": 0.0,
+      "n_lots": 5
+    }
+  }
+}
+,
+{
+  "tickers": [
+    "LEV3SOX",
+    "LEV3GOLD",
+    "LEV3NASDAQ"
+  ],
+  "config": "/Users/yongbeom/cyb/project/2026/bbdbt-rebal/auto_trader/config40.json",
+  "period": "2010-01-01:2025-12-31",
+  "capital": 300000.0,
+  "rebal_enabled": true,
+  "rebal_threshold": 0.15,
+  "rebal_cooldown": 20,
+  "n_rebal_events": 16,
+  "start_date": "2008-11-07",
+  "end_date": "2025-12-31",
+  "n_trading_days": 4313,
+  "portfolio": {
+    "total_pnl_pct": 15006.29,
+    "cagr_pct": 33.99,
+    "cagr_trading_days_pct": 34.07,
+    "final_equity": 45318868.2,
+    "mdd_pct": 40.12
+  },
+  "per_ticker": {
+    "LEV3SOX": {
+      "total_pnl_pct": 14594.66,
+      "final_equity": 14694656.12,
+      "mdd_pct": 61.37,
+      "final_cash": 411149.81,
+      "n_lots": 4
+    },
+    "LEV3GOLD": {
+      "total_pnl_pct": 16369.39,
+      "final_equity": 16469387.96,
+      "mdd_pct": 63.35,
+      "final_cash": 0.0,
+      "n_lots": 4
+    },
+    "LEV3NASDAQ": {
+      "total_pnl_pct": 14054.82,
+      "final_equity": 14154824.12,
+      "mdd_pct": 52.86,
+      "final_cash": 0.0,
+      "n_lots": 7
+    }
+  }
+}
+,
+{
+  "tickers": [
+    "LEV3GOLD",
+    "LEV3NASDAQ"
+  ],
+  "config": "/Users/yongbeom/cyb/project/2026/bbdbt-rebal/auto_trader/config40.json",
+  "period": "2010-01-01:2025-12-31",
+  "capital": 300000.0,
+  "rebal_enabled": false,
+  "rebal_threshold": null,
+  "rebal_cooldown": null,
+  "n_rebal_events": 0,
+  "start_date": "2008-11-07",
+  "end_date": "2025-12-31",
+  "n_trading_days": 4313,
+  "portfolio": {
+    "total_pnl_pct": 7163.82,
+    "cagr_pct": 28.39,
+    "cagr_trading_days_pct": 28.45,
+    "final_equity": 21791448.72,
+    "mdd_pct": 43.96
+  },
+  "per_ticker": {
+    "LEV3GOLD": {
+      "total_pnl_pct": 1059.67,
+      "final_equity": 1739498.74,
+      "mdd_pct": 84.3,
+      "final_cash": 69565.13,
+      "n_lots": 4
+    },
+    "LEV3NASDAQ": {
+      "total_pnl_pct": 13267.97,
+      "final_equity": 20051949.98,
+      "mdd_pct": 52.92,
+      "final_cash": 0.0,
+      "n_lots": 5
+    }
+  }
+}
+,
+{
+  "tickers": [
+    "LEV3GOLD",
+    "LEV3NASDAQ"
+  ],
+  "config": "/Users/yongbeom/cyb/project/2026/bbdbt-rebal/auto_trader/config40.json",
+  "period": "2010-01-01:2025-12-31",
+  "capital": 300000.0,
+  "rebal_enabled": true,
+  "rebal_threshold": 0.15,
+  "rebal_cooldown": 20,
+  "n_rebal_events": 8,
+  "start_date": "2008-11-07",
+  "end_date": "2025-12-31",
+  "n_trading_days": 4313,
+  "portfolio": {
+    "total_pnl_pct": 7658.13,
+    "cagr_pct": 28.89,
+    "cagr_trading_days_pct": 28.95,
+    "final_equity": 23274376.37,
+    "mdd_pct": 34.43
+  },
+  "per_ticker": {
+    "LEV3GOLD": {
+      "total_pnl_pct": 8408.59,
+      "final_equity": 12762890.12,
+      "mdd_pct": 59.37,
+      "final_cash": 510406.89,
+      "n_lots": 4
+    },
+    "LEV3NASDAQ": {
+      "total_pnl_pct": 6907.66,
+      "final_equity": 10511486.25,
+      "mdd_pct": 59.99,
+      "final_cash": 0.0,
+      "n_lots": 6
+    }
+  }
+}
+,
+{
+  "tickers": [
+    "LEV3SOX",
+    "LEV3GOLD",
+    "LEV3NASDAQ"
+  ],
+  "config": "/Users/yongbeom/cyb/project/2026/bbdbt-rebal/auto_trader/config48.json",
+  "period": "2010-01-01:2025-12-31",
+  "capital": 300000.0,
+  "rebal_enabled": false,
+  "rebal_threshold": null,
+  "rebal_cooldown": null,
+  "n_rebal_events": 0,
+  "start_date": "2008-11-07",
+  "end_date": "2025-12-31",
+  "n_trading_days": 4313,
+  "portfolio": {
+    "total_pnl_pct": 12882.71,
+    "cagr_pct": 32.82,
+    "cagr_trading_days_pct": 32.89,
+    "final_equity": 38948129.49,
+    "mdd_pct": 38.57
+  },
+  "per_ticker": {
+    "LEV3SOX": {
+      "total_pnl_pct": 25549.59,
+      "final_equity": 25649588.32,
+      "mdd_pct": 61.87,
+      "final_cash": 0.0,
+      "n_lots": 5
+    },
+    "LEV3GOLD": {
+      "total_pnl_pct": 1021.55,
+      "final_equity": 1121553.23,
+      "mdd_pct": 83.41,
+      "final_cash": 256934.97,
+      "n_lots": 5
+    },
+    "LEV3NASDAQ": {
+      "total_pnl_pct": 12076.99,
+      "final_equity": 12176987.94,
+      "mdd_pct": 52.76,
+      "final_cash": 0.0,
+      "n_lots": 7
+    }
+  }
+}
+,
+{
+  "tickers": [
+    "LEV3SOX",
+    "LEV3GOLD",
+    "LEV3NASDAQ"
+  ],
+  "config": "/Users/yongbeom/cyb/project/2026/bbdbt-rebal/auto_trader/config48.json",
+  "period": "2010-01-01:2025-12-31",
+  "capital": 300000.0,
+  "rebal_enabled": true,
+  "rebal_threshold": 0.15,
+  "rebal_cooldown": 20,
+  "n_rebal_events": 16,
+  "start_date": "2008-11-07",
+  "end_date": "2025-12-31",
+  "n_trading_days": 4313,
+  "portfolio": {
+    "total_pnl_pct": 14544.99,
+    "cagr_pct": 33.75,
+    "cagr_trading_days_pct": 33.82,
+    "final_equity": 43934980.02,
+    "mdd_pct": 40.04
+  },
+  "per_ticker": {
+    "LEV3SOX": {
+      "total_pnl_pct": 12874.36,
+      "final_equity": 12974355.19,
+      "mdd_pct": 57.5,
+      "final_cash": 0.0,
+      "n_lots": 5
+    },
+    "LEV3GOLD": {
+      "total_pnl_pct": 18503.17,
+      "final_equity": 18603166.69,
+      "mdd_pct": 63.95,
+      "final_cash": 4261771.99,
+      "n_lots": 5
+    },
+    "LEV3NASDAQ": {
+      "total_pnl_pct": 12257.46,
+      "final_equity": 12357458.14,
+      "mdd_pct": 50.16,
+      "final_cash": 0.0,
+      "n_lots": 7
+    }
+  }
+}
+,
+{
+  "tickers": [
+    "LEV3GOLD",
+    "LEV3NASDAQ"
+  ],
+  "config": "/Users/yongbeom/cyb/project/2026/bbdbt-rebal/auto_trader/config48.json",
+  "period": "2010-01-01:2025-12-31",
+  "capital": 300000.0,
+  "rebal_enabled": false,
+  "rebal_threshold": null,
+  "rebal_cooldown": null,
+  "n_rebal_events": 0,
+  "start_date": "2008-11-07",
+  "end_date": "2025-12-31",
+  "n_trading_days": 4313,
+  "portfolio": {
+    "total_pnl_pct": 6549.27,
+    "cagr_pct": 27.73,
+    "cagr_trading_days_pct": 27.79,
+    "final_equity": 19947811.75,
+    "mdd_pct": 41.71
+  },
+  "per_ticker": {
+    "LEV3GOLD": {
+      "total_pnl_pct": 1021.55,
+      "final_equity": 1682329.84,
+      "mdd_pct": 83.41,
+      "final_cash": 385402.46,
+      "n_lots": 5
+    },
+    "LEV3NASDAQ": {
+      "total_pnl_pct": 12076.99,
+      "final_equity": 18265481.9,
+      "mdd_pct": 52.76,
+      "final_cash": 0.0,
+      "n_lots": 7
+    }
+  }
+}
+,
+{
+  "tickers": [
+    "LEV3GOLD",
+    "LEV3NASDAQ"
+  ],
+  "config": "/Users/yongbeom/cyb/project/2026/bbdbt-rebal/auto_trader/config48.json",
+  "period": "2010-01-01:2025-12-31",
+  "capital": 300000.0,
+  "rebal_enabled": true,
+  "rebal_threshold": 0.15,
+  "rebal_cooldown": 20,
+  "n_rebal_events": 10,
+  "start_date": "2008-11-07",
+  "end_date": "2025-12-31",
+  "n_trading_days": 4313,
+  "portfolio": {
+    "total_pnl_pct": 6872.89,
+    "cagr_pct": 28.09,
+    "cagr_trading_days_pct": 28.15,
+    "final_equity": 20918669.72,
+    "mdd_pct": 36.74
+  },
+  "per_ticker": {
+    "LEV3GOLD": {
+      "total_pnl_pct": 7363.35,
+      "final_equity": 11195024.08,
+      "mdd_pct": 59.5,
+      "final_cash": 2740228.5,
+      "n_lots": 4
+    },
+    "LEV3NASDAQ": {
+      "total_pnl_pct": 6382.43,
+      "final_equity": 9723645.64,
+      "mdd_pct": 52.33,
+      "final_cash": 0.0,
+      "n_lots": 9
+    }
+  }
+}
+]
