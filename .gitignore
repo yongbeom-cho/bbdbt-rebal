@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*$py.class
+var
+*/.env
+.*
+!.gitignore
+!.env.example
+*/token.dat
+*/position_state.json
+*/fills.jsonl
+viewer/frontend/dist
+viewer/frontend/node_modules
+
+# Legacy auto_trader configs (config.json + config1–4, config40/60 tracked)
+auto_trader/config[5-9].json
+auto_trader/config1[0-4].json
